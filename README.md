@@ -58,8 +58,19 @@ Various DB available:
 
 Select chosen option by commenting/uncommenting related lines in models/model.py
 
+If you wish to use a local DynamoDB, you should configure it using the following commands:
+(refer to this [tutorial](URL "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html") for details)
+
+
+    $ aws dynamodb create-table     --table-name arxivTable     --attribute-definitions AttributeName=_id,AttributeType=S --key-schema AttributeName=_id,KeyType=HASH     --billing-mode PAY_PER_REQUEST --endpoint-url http://localhost:8000
+
+If needed, you can destroy the table using the command: 
+
+    $ aws dynamodb delete-table --table-name arxivTable --endpoint-url http://localhost:8000
+
 ## Run
-    cd app/
+
+    $ cd app/
     $ python app.py
 
 Open http://localhost:5000 in a browser to interact with the API 
@@ -97,7 +108,7 @@ Get content of an uploaded file:
     # Replace <id> by ID of the chosen document
     # The ID was returned in response of an upload file request
 
-# Test
+## Test
 ### pylint
 
     $ python -m pylint <filename>.py
@@ -106,19 +117,25 @@ Get content of an uploaded file:
 
     $ python -m pytest
 
-# Docker
+## Docker locally
+
+build and run container using following commands.
+
     $ docker build -t KnowledgeGraph-Terraform-Flask-app .
     $ docker run -d -p 5000:5000 KnowledgeGraph-Terraform-Flask-app
     $ curl http://localhost:5000
 
 
-# Docker push to AWS
+# Deploy with IaaC
+
+This section deploys the API on AWS and creates the following architecture:
+
+![Flask-Microservice](KnowledgeGraph-Terraform-Flask-app/images/Flask-Microservice.png)
+
+./images/Flask-Microservice.png
+
+## Docker push to AWS
     $ aws ecr create-repository --repository-name KnowledgeGraph-Terraform-Flask-app --image-scanning-configuration scanOnPush=true --region eu-west-3 
 
     $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin 327059905592.dkr.ecr.eu-west-3.amazonaws.com/flask-docker-demo-app
 
-# local Dynamo
-
-    $ aws dynamodb create-table     --table-name arxivTable     --attribute-definitions AttributeName=_id,AttributeType=S                 --key-schema AttributeName=_id,KeyType=HASH     --billing-mode PAY_PER_REQUEST --endpoint-url http://localhost:8000
-
-    $ aws dynamodb delete-table --table-name arxivTable --endpoint-url http://localhost:8000
