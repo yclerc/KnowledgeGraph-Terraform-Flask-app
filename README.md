@@ -54,7 +54,7 @@ Various DB available:
 Select chosen option by commenting/uncommenting related lines in models/model.py
 
 If you wish to use a local DynamoDB, you should configure it using the following commands:
-Refer to this [tutorial](URL "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html") for details.
+Refer to this [tutorial](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html) for details.
 
 
     $ aws dynamodb create-table     --table-name arxivTable     --attribute-definitions AttributeName=_id,AttributeType=S --key-schema AttributeName=_id,KeyType=HASH     --billing-mode PAY_PER_REQUEST --endpoint-url http://localhost:8000
@@ -127,7 +127,7 @@ This section deploys the API on AWS and creates the following architecture:
 
 ![Flask-Microservice](./images/Flask-Microservice.png)
 
-Refer to this [tutorial](URL "https://aws.amazon.com/blogs/opensource/deploying-python-flask-microservices-to-aws-using-open-source-tools/") for details.
+Refer to this [tutorial](https://aws.amazon.com/blogs/opensource/deploying-python-flask-microservices-to-aws-using-open-source-tools/) for details.
 
 
 ## Docker push to AWS
