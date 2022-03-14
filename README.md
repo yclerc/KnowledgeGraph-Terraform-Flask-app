@@ -18,7 +18,7 @@ API to generate Knowledge Graphs from scientic documents hsting platforme arxiv.
 ## Sources: 
     -
     -
-    
+
 
 # Install
 
@@ -27,7 +27,7 @@ API to generate Knowledge Graphs from scientic documents hsting platforme arxiv.
 This package requires python 3 (including venv), git and a recent OS
 
 
-## KnowledgeGraph-Terraform-Flask-app
+## Install locally 
 
 Clone and go to the newly created repository :
 
@@ -48,11 +48,20 @@ Install requirements from txt file:
 
     $ pip install -r requirements.txt
 
-# Run
+## Select endpoint for database
 
+Various DB available: 
+    - local DynamoDB, for integration testing
+    - hosted MongoDB Atlas DB, initial choice to expose the API (ask admin for credentials)
+    - hosted AWS DynamoDB, for production 
+
+Select chosen option by commenting/uncommenting related lines in models/model.py
+
+## Run
+    cd app/
     $ python app.py
 
-Open http://localhost:5000 in a browser to try the software
+Open http://localhost:5000 in a browser to interact with the API 
 
 ## API specification
 
