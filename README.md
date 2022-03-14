@@ -51,6 +51,7 @@ Install requirements from txt file:
 ## Select endpoint for database
 
 Various DB available: 
+
     - local DynamoDB, for integration testing
     - hosted MongoDB Atlas DB, initial choice to expose the API (ask admin for credentials)
     - hosted AWS DynamoDB, for production 
