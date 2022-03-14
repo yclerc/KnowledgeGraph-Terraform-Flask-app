@@ -1,0 +1,25 @@
+
+FROM python:3.8-slim as builder
+COPY . /src
+COPY ./requirements.txt .
+RUN pip install --user fastapi uvicorn boto3 flask spacy 
+RUN python -m spacy download en_core_web_sm
+#RUN pip install -r ./src/requirements.txt
+RUN pip install -r requirements.txt
+
+
+FROM python:3.8-slim as app
+COPY --from=builder /root/.local /root/.local
+COPY --from=builder /src .
+
+
+ENV PATH=/root/.local:$PATH
+EXPOSE 5000
+
+
+CMD ["python3", "app.py"]
+
+
+
+# FROM public.ecr.aws/lambda/python:3.8 #traceback on requirements.txt
+# FROM python:3.8-slim #traceback container run cannot find arxiv

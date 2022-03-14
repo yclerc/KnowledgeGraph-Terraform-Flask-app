@@ -1,0 +1,13 @@
+arxiv==1.4.2
+boto3==1.21.8
+certifi==2021.10.8
+dnspython==2.2.1
+en_core_web_sm==3.2.0
+Flask==2.0.2
+Owlready2==0.36
+pdfminer==20191125
+pdfminer.six==20211012
+PyPDF2==1.26.0
+pytest==6.2.5
+spacy==3.2.1
+Werkzeug==2.0.2
