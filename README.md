@@ -122,7 +122,10 @@ build and run container using following commands.
 
 # Deploy with IaaC
 
-This section deploys the API on AWS and creates the following architecture:
+This section deploys the API on AWS according the following workflow:
+![devops](./images/devops.png)
+
+Resulting architecture generated in AWS :
 
 ![Flask-Microservice](./images/Flask-Microservice.png)
 
