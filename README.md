@@ -15,6 +15,10 @@ API to generate Knowledge Graphs from scientic documents hsting platforme arxiv.
     - route to add by arxiv_ID --> Done
     - push to github --> Done
 
+## Sources: 
+    -
+    -
+    
 
 # Install
 
