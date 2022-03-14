@@ -17,6 +17,8 @@ _Author:_ [Yann CLERC](https://github.com/yclerc)
   - [Docker locally](#docker-locally)
 - [Deploy with IaaC](#deploy-with-iaac)
   - [Docker push to AWS](#docker-push-to-aws)
+  - [Deploy Terraform plan](#deploy-terraform-plan)
+  - [Remove deployed architecture](#remove-deployed-architecture)
 
 ---
 **To Do (dev):** 
