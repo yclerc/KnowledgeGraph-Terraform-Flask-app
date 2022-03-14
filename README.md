@@ -1,18 +1,44 @@
+
 # KnowledgeGraph-Terraform-Flask-app
 
-API to generate Knowledge Graphs from [arxiv.org](https://arxiv.org).
+_Description:_ API to generate Knowledge Graphs from [arxiv.org](https://arxiv.org)
+
+_Author:_ [Yann CLERC](https://github.com/yclerc)
+
+---
+**Table of Contents**  
+- [General info](#general-info)
+- [Install](#install)
+  - [Dependencies](#dependencies)
+  - [Install locally](#install-locally)
+  - [Select endpoint for database](#select-endpoint-for-database)
+  - [Run](#run)
+  - [Test](#test)
+  - [Docker locally](#docker-locally)
+- [Deploy with IaaC](#deploy-with-iaac)
+  - [Docker push to AWS](#docker-push-to-aws)
+
+---
+**To Do (dev):** 
+- create route to show what is already in DB
+- update root definitions in README.md
+- perform large batch from local to AWS DB endpoint
+- document API with swagger 
+- onto url with arxiv id instead of title --> Done
+- clean code --> Done
+- delete downloaded files --> Done
+- route to add by arxiv_ID --> Done
+- push to github --> Done
+---
 
 
-## To Do: 
-    - route to show what is already in DB
-    - large batch from local to AWS DB endpoint
-    - document API with swagger 
-    - ______
-    - onto url with arxiv id instead of title --> Done
-    - clean code --> Done
-    - delete downloaded files --> Done
-    - route to add by arxiv_ID --> Done
-    - push to github --> Done
+
+# General info
+This project deploys an API on AWS according to the following workflow:
+![devops](./images/devops.png)
+	
+
+
 
 # Install
 
@@ -22,6 +48,8 @@ This package requires python 3 (including venv), git and a recent OS
 
 
 ## Install locally 
+
+
 
 Clone and go to the newly created repository :
 
@@ -115,6 +143,7 @@ Get content of an uploaded file:
 
 build and run container using following commands.
 
+
     $ docker build -t KnowledgeGraph-Terraform-Flask-app .
     $ docker run -d -p 5000:5000 KnowledgeGraph-Terraform-Flask-app
     $ curl http://localhost:5000
@@ -122,18 +151,25 @@ build and run container using following commands.
 
 # Deploy with IaaC
 
-This section deploys the API on AWS according the following workflow:
-![devops](./images/devops.png)
-
 Resulting architecture generated in AWS :
-
 ![Flask-Microservice](./images/Flask-Microservice.png)
 
 Refer to this [tutorial](https://aws.amazon.com/blogs/opensource/deploying-python-flask-microservices-to-aws-using-open-source-tools/) for details.
 
 
 ## Docker push to AWS
+---
+**NB:** 
+This step assumes you already have a configured programatic access to an active AWS account 
+
+---
+
+Create repository on AWS ECR:
+
     $ aws ecr create-repository --repository-name KnowledgeGraph-Terraform-Flask-app --image-scanning-configuration scanOnPush=true --region eu-west-3 
+
+
+Get credentials:
 
     $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin 327059905592.dkr.ecr.eu-west-3.amazonaws.com/flask-docker-demo-app
 
