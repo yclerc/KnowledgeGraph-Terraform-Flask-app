@@ -132,7 +132,6 @@ This section deploys the API on AWS and creates the following architecture:
 
 ![Flask-Microservice](/repository/images/Flask-Microservice.png)
 
-./images/Flask-Microservice.png
 
 ## Docker push to AWS
     $ aws ecr create-repository --repository-name KnowledgeGraph-Terraform-Flask-app --image-scanning-configuration scanOnPush=true --region eu-west-3 
