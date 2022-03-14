@@ -1,9 +1,9 @@
 
 # KnowledgeGraph-Terraform-Flask-app
 
-_Description:_ API to generate Knowledge Graphs from [arxiv.org](https://arxiv.org)
+- _Description:_ API to generate Knowledge Graphs from [arxiv.org](https://arxiv.org)
 
-_Author:_ [Yann CLERC](https://github.com/yclerc)
+- _Author:_ [Yann CLERC](https://github.com/yclerc)
 
 ---
 **Table of Contents**  
