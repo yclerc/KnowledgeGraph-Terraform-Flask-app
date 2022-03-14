@@ -1,6 +1,6 @@
 # KnowledgeGraph-Terraform-Flask-app
 
-API to generate Knowledge Graphs from arxiv.org (scientic documents hosting platform).
+API to generate Knowledge Graphs from [arxiv.org](https://arxiv.org).
 
 
 ## To Do: 
