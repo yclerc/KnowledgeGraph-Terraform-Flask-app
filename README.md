@@ -130,7 +130,7 @@ build and run container using following commands.
 
 This section deploys the API on AWS and creates the following architecture:
 
-![Flask-Microservice](KnowledgeGraph-Terraform-Flask-app/images/Flask-Microservice.png)
+![Flask-Microservice](repository/images/Flask-Microservice.png)
 
 ./images/Flask-Microservice.png
 
