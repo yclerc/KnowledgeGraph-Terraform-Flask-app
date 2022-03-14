@@ -154,7 +154,7 @@ build and run container using following commands.
 Resulting architecture generated in AWS :
 ![Flask-Microservice](./images/Flask-Microservice.png)
 
-Refer to this [tutorial](https://aws.amazon.com/blogs/opensource/deploying-python-flask-microservices-to-aws-using-open-source-tools/) for details.
+Refer to this [tutorial](https://aws.amazon.com/blogs/opensource/deploying-python-flask-microservices-to-aws-using-open-source-tools/) to get more details. Use commands below to ensure proper deployment.
 
 
 ## Docker push to AWS
@@ -171,5 +171,61 @@ Create repository on AWS ECR:
 
 Get credentials:
 
-    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin 327059905592.dkr.ecr.eu-west-3.amazonaws.com/flask-docker-demo-app
+    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app
+
+From your browser open the AWS Console, open Services, Elastic Container Registry. 
+
+Select the KnowledgeGraph-Terraform-Flask-app. The ECR URI will be needed later on.
+
+Log into the ECR service of your AWS account (use your own AWS_ID):
+
+    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app
+
+Tag and push to ECR:
+
+    $ docker tag KnowledgeGraph-Terraform-Flask-app:latest <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app:latest
+
+    $ docker push <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app:latest
+
+## Deploy Terraform plan 
+
+
+    $ cd ..
+    $ cd  /terraform
+    $ terraform init
+---
+The Terraform code will deploy the following configuration:
+- IAM: Identity access management policy configuration
+- VPC: Public and private subnets, routes, and a NAT Gateway
+- EC2: Autoscaling implementation
+- ECS: Cluster configuration
+- ALB: Load balancer configuration
+- DynamoDB: Table configuration
+- CloudWatch: Alert metrics configuration
+---
+
+
+
+    $ terraform validate # check configuration files
+
+    $ terraform plan # prepare and print execution plan 
+    # this command prompts for a valid ECR URI (see) AWS console)
+
+    $ terraform apply # deploy plan to AWS
+
+
+
+## Remove deployed architecture 
+
+Delete the API completely from AWS: 
+
+    $ terraform destroy
+
+You can finally delete the ECR registry directly from your browser in AWS console. 
+
+
+
+
+
+
 
