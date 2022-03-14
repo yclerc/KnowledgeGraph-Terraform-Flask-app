@@ -1,10 +1,9 @@
 # KnowledgeGraph-Terraform-Flask-app
 
-API to generate Knowledge Graphs from scientic documents hsting platforme arxiv.org
+API to generate Knowledge Graphs from arxiv.org (scientic documents hosting platform).
 
 
 ## To Do: 
-    - update README
     - route to show what is already in DB
     - large batch from local to AWS DB endpoint
     - document API with swagger 
