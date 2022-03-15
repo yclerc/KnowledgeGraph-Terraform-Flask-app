@@ -138,7 +138,11 @@ Create repository on AWS ECR:
 
 Get credentials:
 
-    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS ID>.dkr.ecr.eu-west-3.amazonaws.com/knowledgegraph-terraform-flask-app
+---
+**NB:** 
+Insert your actual AWS ID in the following command lines.
+
+    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/knowledgegraph-terraform-flask-app
 
 From your browser open the AWS Console, open Services, Elastic Container Registry. 
 
@@ -176,11 +180,17 @@ The Terraform code will deploy the following configuration:
     $ terraform validate 
 
     # prepare and review execution plan:
-    # this command prompts for a valid ECR URI (see) AWS console)
+    # this command prompts for a valid ECR URI (see AWS console)
     $ terraform plan  
     
     # deploy plan to AWS:
+    # this command prompts for a valid ECR URI (see AWS console)
+    # then type 'yes' when prompted to launch execution
     $ terraform apply 
+
+The execution may take a while.
+If successful, the output will be the newly created URI for our API endpoint.
+Copy and paste this URI to your browser in order to access the API. 
 
 
 
@@ -204,7 +214,7 @@ An API contract is provided through [Postman API Platform](https://www.postman.c
 
 See [API Contract](https://documenter.getpostman.com/view/20033934/UVsLRRU3) for information on the [KnowledgeGraph-Terraform-Flask-app](.) API and available routes
 
-
+See these [resources](https://idratherbewriting.com/learnapidoc/index.html) for more content on how to document APIs
 
 ## Test
 

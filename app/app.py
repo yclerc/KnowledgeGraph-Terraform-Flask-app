@@ -33,7 +33,7 @@ def hello():
 @app.route("/arxiv/unit/<input_arxiv_id>", methods=["GET", "POST"])
 def unit_populate_from_arxiv(input_arxiv_id):
 
-    try:
+    #try:
         search = arxiv.Search(id_list=[input_arxiv_id])
         result = next(search.results())
         # initialize variables
@@ -68,12 +68,12 @@ def unit_populate_from_arxiv(input_arxiv_id):
                 "Response": "This file is already stored in the database",
             }
             return json_output, 400
-    except:
-        json_output = {
-            "Files added": 0,
-            "Response": "It seems the ID you entered is not valid. Please consider using an accurate arxiv ID such as 2102.04706 or 2102.04706v1",
-        }
-        return json_output, 400
+    # except:
+    #     json_output = {
+    #         "Files added": 0,
+    #         "Response": "It seems the ID you entered is not valid. Please consider using an accurate arxiv ID such as 2102.04706 or 2102.04706v1",
+    #     }
+    #     return json_output, 400
 
 
 @app.route("/arxiv/batch/<int:batch_size>", methods=["GET", "POST"])
@@ -82,7 +82,7 @@ def batch_populate_from_arxiv(batch_size):
     # 3 min runtime on MacPro for 20 files. Check multi-threading to increase perf ??
     # generate guidance message
 
-    try:
+    #try:
         # search for selected query, returns latest documents related to the query from arxiv 
         search = arxiv.Search(
             query="Computer Science & AI",
@@ -122,12 +122,12 @@ def batch_populate_from_arxiv(batch_size):
         json_output = {"Files added": file_id, "Details": lst , "Response":"If 0 files were added, the database is already up to date with latest documents from arxiv. In this case, batch requests are not allowed. Please consider uploading specific documents through the /arxiv/unit/<input_arxiv_id> method"}
         return json_output, 200
 
-    except:
-        json_output = {
-            "Files added": 0,
-            "Response": "It seems your request has exceeded currently allowed network capabilities. Please consider using a smaller batch size or uploading specific documents through the /arxiv/unit/<input_arxiv_id> method",
-        }
-        return json_output, 500
+    # except:
+    #     json_output = {
+    #         "Files added": 0,
+    #         "Response": "It seems your request has exceeded currently allowed network capabilities. Please consider using a smaller batch size or uploading specific documents through the /arxiv/unit/<input_arxiv_id> method",
+    #     }
+    #     return json_output, 500
 
 @app.route("/onto/", methods=["GET"])
 def get_onto():

@@ -33,10 +33,10 @@ collection=mongo_db["arxiv-AI"]
 # Access to AWS DynamoDB cluster  __________________
 
 # client for connection to hosted DynamoDB on AWS
-client = boto3.client("dynamodb", region_name="eu-west-3")
+#client = boto3.client("dynamodb", region_name="eu-west-3")
 
 # cliient for connection to local DynamoDB
-# client = boto3.client('dynamodb', endpoint_url="http://localhost:8000")
+client = boto3.client('dynamodb', endpoint_url="http://localhost:8000")
 
 dynamoTableName = "arxivTable"
 # __________________________________________________
