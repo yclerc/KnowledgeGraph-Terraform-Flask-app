@@ -248,13 +248,15 @@ Get content of an uploaded file:
 Clean code automatically on app files by using black package:
 
 
-    $ black <file_path> 
+    $ black <filename>.py 
 
 ### pylint
+Rate code quality and suggests improvements
 
     $ python -m pylint <filename>.py
 
 ### pytest
+Perform unit tests from [tests](./app/tests/) folder
 
     $ python -m pytest
 
