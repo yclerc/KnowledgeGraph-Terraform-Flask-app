@@ -22,10 +22,10 @@
 
 ---
 **To Do (dev):** 
-- create route to show what is already in DB
-- update root definitions in README.md
+- document API with swagger / others
+- update routes definitions in README.md
 - perform large batch from local to AWS DB endpoint
-- document API with swagger 
+- create route to show what is already in DB -- Nice To Have
 - onto url with arxiv id instead of title --> Done
 - clean code --> Done
 - delete downloaded files --> Done
@@ -80,7 +80,7 @@ Various DB available:
     - hosted MongoDB Atlas DB, initial choice to expose the API (ask admin for credentials)
     - hosted AWS DynamoDB, for production 
 
-Select chosen option by commenting/uncommenting related lines in models/model.py
+Select chosen option by commenting/uncommenting related lines in [models/model.py](./app/models/model.py)
 
 If you wish to use a local DynamoDB, you should configure it using the following commands:
 Refer to this [tutorial](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html) for details.
@@ -207,13 +207,15 @@ The Terraform code will deploy the following configuration:
 ---
 
 
+    # check configuration files:
+    $ terraform validate 
 
-    $ terraform validate # check configuration files
-
-    $ terraform plan # prepare and print execution plan 
+    # prepare and print execution plan:
     # this command prompts for a valid ECR URI (see) AWS console)
-
-    $ terraform apply # deploy plan to AWS
+    $ terraform plan  
+    
+    # deploy plan to AWS:
+    $ terraform apply 
 
 
 
