@@ -118,7 +118,8 @@ Refer to this [tutorial](https://aws.amazon.com/blogs/opensource/deploying-pytho
 ## Docker push to AWS
 ---
 **NB:** 
-This step assumes you already have a configured programatic access to an active AWS account 
+This step assumes you already have a configured programatic CLI access to an active AWS account.
+Refer to this [tutorial](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) for more details. 
 
 ---
 
@@ -135,7 +136,7 @@ From your browser open the AWS Console, open Services, Elastic Container Registr
 
 Select the KnowledgeGraph-Terraform-Flask-app. The ECR URI will be needed later on.
 
-Log into the ECR service of your AWS account (use your own AWS_ID):
+Back to the shell, log into the ECR service of your AWS account (use your own AWS_ID) with the following command:
 
     $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app
 
@@ -166,7 +167,7 @@ The Terraform code will deploy the following configuration:
     # check configuration files:
     $ terraform validate 
 
-    # prepare and print execution plan:
+    # prepare and review execution plan:
     # this command prompts for a valid ECR URI (see) AWS console)
     $ terraform plan  
     
@@ -182,6 +183,8 @@ Delete the API completely from AWS:
     $ terraform destroy
 
 You can finally delete the ECR registry directly from your browser in AWS console. 
+
+In case of errors during deletion, check manually from AWS Console for services that are still up and running. 
 
 
 
