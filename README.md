@@ -108,8 +108,8 @@ Open http://localhost:5000 in a browser to interact with the API
 build and run container using following commands.
 
 
-    $ docker build -t KnowledgeGraph-Terraform-Flask-app .
-    $ docker run -d -p 5000:5000 KnowledgeGraph-Terraform-Flask-app
+    $ docker build -t knowledgegraph-terraform-flask-app .
+    $ docker run -d -p 5000:5000 knowledgegraph-terraform-flask-app
     $ curl http://localhost:5000
 
 
@@ -133,26 +133,26 @@ Make sure to select proper DB endpoint (AWS hosted DynamoDB) in [models/model.py
 
 Create repository on AWS ECR:
 
-    $ aws ecr create-repository --repository-name KnowledgeGraph-Terraform-Flask-app --image-scanning-configuration scanOnPush=true --region eu-west-3 
+    $ aws ecr create-repository --repository-name knowledgegraph-terraform-flask-app --image-scanning-configuration scanOnPush=true --region eu-west-3 
 
 
 Get credentials:
 
-    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app
+    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS ID>.dkr.ecr.eu-west-3.amazonaws.com/knowledgegraph-terraform-flask-app
 
 From your browser open the AWS Console, open Services, Elastic Container Registry. 
 
-Select the KnowledgeGraph-Terraform-Flask-app. The ECR URI will be needed later on.
+Select the knowledgegraph-terraform-flask-app. The ECR URI will be needed later on.
 
 Back to the shell, log into the ECR service of your AWS account (use your own AWS_ID) with the following command:
 
-    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app
+    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/knowledgegraph-terraform-flask-app
 
 Tag and push to ECR:
 
-    $ docker tag KnowledgeGraph-Terraform-Flask-app:latest <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app:latest
+    $ docker tag knowledgegraph-terraform-flask-app:latest <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/knowledgegraph-terraform-flask-app:latest
 
-    $ docker push <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/KnowledgeGraph-Terraform-Flask-app:latest
+    $ docker push <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/knowledgegraph-terraform-flask-app:latest
 
 ## Deploy Terraform plan 
 
