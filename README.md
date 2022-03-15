@@ -206,21 +206,19 @@ See [API Contract](https://documenter.getpostman.com/view/20033934/UVsLRRU3) for
 
 ## Test
 
-### black
-Clean code automatically on app files by using black package:
-
+**black**:
+Clean code automatically on app files by using black package
 
     $ black <filename>.py 
 
-### pylint
+**pylint**:
 Rate code quality and suggests improvements
 
     $ python -m pylint <filename>.py
 
-### pytest
-Perform unit tests from [tests](./app/tests/) folder
+**pytest**: Perform unit tests from [tests](./app/tests/) folder and check coverage
 
-    $ python -m pytest
+    $ python -m pytest --cov
 
 
 ## Monitor
