@@ -12,11 +12,7 @@
         - update Dockerfile
         - update terraform files config.tf and variables.tf
         - That's it ! :)
-
-
-
-
-
+    * feel free to contribute to this project by creating issues
 
 ---
 **Table of Contents**  
@@ -38,18 +34,6 @@
  
 
 ---
-**To Do (dev):** 
-- document API with swagger / others
-- update routes definitions in README.md
-- perform large batch from local to AWS DB endpoint
-- create route to show what is already in DB -- Nice To Have
-- onto url with arxiv id instead of title --> Done
-- clean code --> Done
-- delete downloaded files --> Done
-- route to add by arxiv_ID --> Done
-- push to github --> Done
----
-
 
 
 # General info
