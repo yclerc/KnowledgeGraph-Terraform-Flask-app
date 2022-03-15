@@ -26,7 +26,10 @@ app.config["DOWNLOAD_FOLDER"] = DOWNLOAD_FOLDER
 @app.route("/")
 def hello():
     # change to send available commands ?? Link with API manager ??
-    return "Hello World!"
+    json_output = {"Microservice Status": "UP", "API specifications": "https://documenter.getpostman.com/view/20033934/UVsLRRU3"}
+    return json_output, 200
+
+    return "Hello World!", 200
 
 
 @app.route("/arxiv/unit/<input_arxiv_id>", methods=["GET", "POST"])
@@ -126,7 +129,7 @@ def batch_populate_from_arxiv(batch_size):
             "Files added": 0,
             "Response": "It seems your request has exceeded currently allowed network capabilities. Please consider using a smaller batch size or uploading specific documents through the /arxiv/unit/<input_arxiv_id> method",
         }
-        return json_output, 400
+        return json_output, 500
 
 @app.route("/onto/", methods=["GET"])
 def get_onto():
