@@ -63,11 +63,11 @@ Clone and go to the newly created repository :
 
 Create a deployment virtualenv and activate it: 
 
+    # for UNIX systems:
     $ python -m venv deploy_venv
     $ source deploy_venv/bin/activate
 
-Or on Windows cmd:
-
+    # for Windows systems:
     $ python -m venv deploy_venv
     $ deploy_venv\Scripts\activate
 
@@ -89,7 +89,7 @@ If you wish to use a local DynamoDB, you should configure it using the following
 Refer to this [tutorial](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html) for details.
 
 
-    $ aws dynamodb create-table     --table-name arxivTable     --attribute-definitions AttributeName=_id,AttributeType=S --key-schema AttributeName=_id,KeyType=HASH     --billing-mode PAY_PER_REQUEST --endpoint-url http://localhost:8000
+    $ aws dynamodb create-table --table-name arxivTable     --attribute-definitions AttributeName=_id,AttributeType=S --key-schema AttributeName=_id,KeyType=HASH --billing-mode PAY_PER_REQUEST --endpoint-url http://localhost:8000
 
 If needed, you can destroy the table using the command: 
 
@@ -155,8 +155,7 @@ Tag and push to ECR:
 ## Deploy Terraform plan 
 
 
-    $ cd ..
-    $ cd  /terraform
+    $ cd ../terraform
     $ terraform init
 ---
 The Terraform code will deploy the following configuration:
@@ -168,6 +167,7 @@ The Terraform code will deploy the following configuration:
 - DynamoDB: Table configuration
 - CloudWatch: Alert metrics configuration
 ---
+
 
 
     # check configuration files:
@@ -200,7 +200,7 @@ In case of errors during deletion, check manually from AWS Console for services 
 
 An API contract is provided through [Postman API Platform](https://www.postman.com), based on [OpenAPI](https://www.youtube.com/watch?v=InE6Odx--xo) specifications.
 
-See [API Contract](https://documenter.getpostman.com/view/20033934/UVsLRRU3) for information on the API and available routes
+See [API Contract](https://documenter.getpostman.com/view/20033934/UVsLRRU3) for information on the [KnowledgeGraph-Terraform-Flask-app](.) API and available routes
 
 
 
