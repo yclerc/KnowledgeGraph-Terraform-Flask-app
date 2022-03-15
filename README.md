@@ -10,6 +10,7 @@
         - add your app file structure
         - update requirements.txt
         - update Dockerfile
+        - update terraform files config.tf and variables.tf
         - That's it ! :)
 
 
@@ -24,13 +25,19 @@
   - [Dependencies](#dependencies)
   - [Install locally](#install-locally)
   - [Select endpoint for database](#select-endpoint-for-database)
-  - [Run](#run)
+  - [Launch microservice on localhost](#launch-microservice-on-localhost)
   - [Test](#test)
   - [Docker locally](#docker-locally)
 - [Deploy with IaaC](#deploy-with-iaac)
   - [Docker push to AWS](#docker-push-to-aws)
   - [Deploy Terraform plan](#deploy-terraform-plan)
   - [Remove deployed architecture](#remove-deployed-architecture)
+- [Use](#use)
+  - [API manager](#api-manager)
+  - [Routes definition](#routes-definition)
+  - [Test](#test)
+  - [Work with generated ontology](#work-with-generated-ontology)
+ 
 
 ---
 **To Do (dev):** 
@@ -104,54 +111,12 @@ If needed, you can destroy the table using the command:
 
     $ aws dynamodb delete-table --table-name arxivTable --endpoint-url http://localhost:8000
 
-## Run
+## Launch microservice on localhost
 
     $ cd app/
     $ python app.py
 
 Open http://localhost:5000 in a browser to interact with the API 
-
-## API specification
-
-### Upload a file
-
-Post a file to the server:
-
-**Request**
-
-    HTTP Methode: POST
-    Route: /
-
-### Check an uploaded file
-
-Get the status of an uploaded file and show his meta data:
-
-**Request**
-
-    HTTP Methode: GET
-    Route: /documents/<id>
-    # Replace <id> by ID of the chosen document
-    # The ID was returned in response of an upload file request
-
-### Text of an uploaded file
-
-Get content of an uploaded file:
-
-**Request**
-
-    HTTP Methode: GET
-    Route: /text/<id>
-    # Replace <id> by ID of the chosen document
-    # The ID was returned in response of an upload file request
-
-## Test
-### pylint
-
-    $ python -m pylint <filename>.py
-
-### pytest
-
-    $ python -m pytest
 
 ## Docker locally
 
@@ -238,6 +203,70 @@ Delete the API completely from AWS:
     $ terraform destroy
 
 You can finally delete the ECR registry directly from your browser in AWS console. 
+
+
+
+# Use
+
+## API manager 
+
+
+
+
+## Routes definition
+
+### Upload a file
+
+Post a file to the server:
+
+**Request**
+
+    HTTP Methode: POST
+    Route: /
+
+### Check an uploaded file
+
+Get the status of an uploaded file and show his meta data:
+
+**Request**
+
+    HTTP Methode: GET
+    Route: /documents/<id>
+    # Replace <id> by ID of the chosen document
+    # The ID was returned in response of an upload file request
+
+### Text of an uploaded file
+
+Get content of an uploaded file:
+
+**Request**
+
+    HTTP Methode: GET
+    Route: /text/<id>
+    # Replace <id> by ID of the chosen document
+    # The ID was returned in response of an upload file request
+
+## Test
+### pylint
+
+    $ python -m pylint <filename>.py
+
+### pytest
+
+    $ python -m pytest
+
+
+
+
+## Work with generated ontology 
+
+
+
+
+
+
+
+
 
 
 
