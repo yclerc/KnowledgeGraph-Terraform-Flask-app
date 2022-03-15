@@ -127,6 +127,8 @@ Refer to this [tutorial](https://aws.amazon.com/blogs/opensource/deploying-pytho
 This step assumes you already have a configured programatic CLI access to an active AWS account.
 Refer to this [tutorial](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) for more details. 
 
+Make sure to select proper DB endpoint (AWS hosted DynamoDB) in [models/model.py](./app/models/model.py).
+
 ---
 
 Create repository on AWS ECR:
