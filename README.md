@@ -28,6 +28,7 @@
   - [Remove deployed architecture](#remove-deployed-architecture)
 - [Use](#use)
   - [API manager](#api-manager)
+  - [Best practices](#best-practices)  
   - [Test](#test)
   - [Monitor](#monitor)
   - [Work with generated ontology](#work-with-generated-ontology)
@@ -139,7 +140,7 @@ Refer to this [tutorial](https://aws.amazon.com/blogs/opensource/deploying-pytho
 This step assumes you already have a configured programatic CLI access to an active AWS account.
 Refer to this [tutorial](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) for more details. 
 
-Make sure to select proper DB endpoint (AWS hosted DynamoDB) in [models/model.py](./app/models/model.py).
+Make sure to select proper DB endpoint (AWS hosted DynamoDB) in [models/model.py](./app/models/model.py) before building your container.
 
 ---
 
@@ -160,9 +161,7 @@ From your browser open the AWS Console, open Services, Elastic Container Registr
 
 Select the knowledgegraph-terraform-flask-app. The ECR URI will be needed later on.
 
-Back to the shell, log into the ECR service of your AWS account (use your own AWS_ID) with the following command:
-
-    $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/knowledgegraph-terraform-flask-app
+Back to the shell, log into the ECR service of your AWS account (use your own AWS_ID) with the following commands.
 
 Tag and push to ECR:
 
@@ -232,7 +231,44 @@ See API contracts for information on the [KnowledgeGraph-Terraform-Flask-app](.)
 
 See these [resources](https://idratherbewriting.com/learnapidoc/index.html) for more content on how to document APIs
 
-## Test
+
+
+## Test scenarii
+
+### Test the fully hosted microservice
+- Go to provided endpoint 
+- Security, access restriction: TBD
+- Upload unit file
+- Generate onto 
+
+### Deploy your own cloud hosted microservice 
+- Follow [Deploy](#deploy) section
+- same steps as for fully hosted microservice
+- Launch API from your machine to perform batch imports
+
+---
+**NB:** 
+- The fully hosted Flask app relies extensively on network connectivity. 
+- An area of improvement could be to use a cache such as [celery](https://flask.palletsprojects.com/en/1.1.x/patterns/celery/).
+- Another option would be to tweak parameters of the architecture, especially limitations on: 
+    - Internet Gateway, 
+    - NAT Gateway, 
+    - Application Load Balancer.
+- Always prefer to launch batch imports from local API instance
+---
+Example of successful batch request from local API instance, 10 documents, elapsed time: 3 min
+![batch10success](./images/batch10success.png)
+
+
+### Test your own microservice on localhost 
+- launch local API instance (with either local or remote DynamoDB)
+- same steps as for fully hosted microservice
+- Perform batch imports (for instance, batch size = increasing multiples of 10)
+
+
+
+
+### Code testing librairies
 
 **black**:
 Clean code automatically on app files by using black package
