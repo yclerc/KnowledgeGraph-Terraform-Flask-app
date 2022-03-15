@@ -61,15 +61,15 @@ Clone and go to the newly created repository :
     $ git clone <https address>
     $ cd KnowledgeGraph-Terraform-Flask-app
 
-Create a virtualenv and activate it: (here our venv is called "deploy")
+Create a deployment virtualenv and activate it: 
 
-    $ python -m venv deploy
-    $ source deploy/bin/activate
+    $ python -m venv deploy_venv
+    $ source deploy_venv/bin/activate
 
 Or on Windows cmd:
 
-    $ python -m venv deploy
-    $ deploy\Scripts\activate
+    $ python -m venv deploy_venv
+    $ deploy_venv\Scripts\activate
 
 Install requirements from txt file:
 
