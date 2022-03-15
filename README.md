@@ -1,7 +1,7 @@
 
 # KnowledgeGraph-Terraform-Flask-app
 
-- _Author:_ [Yann CLERC](https://github.com/yclerc)
+
 - _Description:_ Deployment framework to AWS for secure, autoscaling, High-Availability microservices
 - _Provided microservice:_ In this example, we use an API generating Knowledge Graphs from [arxiv.org](https://arxiv.org)
 - _Use:_
@@ -47,7 +47,14 @@ This project deploys an API on AWS according to the following workflow:
 
 ## Quickstart
 
-This package requires python 3 (including venv), git and a recent OS.
+Global dependencies: (please refer to links for installation tutorials if necessray)
+- recent OS
+- [git](https://git-scm.com)
+- [Python](https://www.python.org/downloads/)  (including venv)
+- AWS [Account](https://aws.amazon.com/resources/create-account/) & [CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+- [Docker Desktop](https://www.docker.com/get-started) 
+- [Terraform](https://www.terraform.io)
+- [Protégé](https://protege.stanford.edu)
 
 Clone and go to the newly created repository :
 
