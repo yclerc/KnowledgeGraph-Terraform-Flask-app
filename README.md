@@ -5,9 +5,9 @@
 - _Description:_ Deployment framework to AWS for secure, autoscaling, High-Availability microservices
 - _Provided microservice:_ In this example, we use an API generating Knowledge Graphs from [arxiv.org](https://arxiv.org)
 - _Use:_
-    * with provided flask app 
+    * with provided flask app, no modifications required 
     * with your own flask app
-        - add your app file structure
+        - replace the content of folder [./app/](./app/) by your own miscroservice
         - update requirements.txt
         - update Dockerfile
         - update terraform files config.tf and variables.tf
@@ -22,11 +22,9 @@
 **Table of Contents**  
 - [General info](#general-info)
 - [Install](#install)
-  - [Dependencies](#dependencies)
-  - [Install locally](#install-locally)
+  - [Quickstart](#quickstart)
   - [Select endpoint for database](#select-endpoint-for-database)
   - [Launch microservice on localhost](#launch-microservice-on-localhost)
-  - [Test](#test)
   - [Docker locally](#docker-locally)
 - [Deploy with IaaC](#deploy-with-iaac)
   - [Docker push to AWS](#docker-push-to-aws)
@@ -63,14 +61,9 @@ This project deploys an API on AWS according to the following workflow:
 
 # Install
 
-## Dependencies
+## Quickstart
 
 This package requires python 3 (including venv), git and a recent OS
-
-
-## Install locally 
-
-
 
 Clone and go to the newly created repository :
 
@@ -117,6 +110,7 @@ If needed, you can destroy the table using the command:
     $ python app.py
 
 Open http://localhost:5000 in a browser to interact with the API 
+
 
 ## Docker locally
 
@@ -247,6 +241,13 @@ Get content of an uploaded file:
     # The ID was returned in response of an upload file request
 
 ## Test
+
+### black
+Clean code automatically on app files by using black package:
+
+
+    $ black <file_path> 
+
 ### pylint
 
     $ python -m pylint <filename>.py
