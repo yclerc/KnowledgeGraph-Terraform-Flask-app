@@ -88,12 +88,24 @@ Select chosen option by commenting/uncommenting related lines in [models/model.p
 If you wish to use a local DynamoDB, you should configure it using the following commands:
 Refer to this [tutorial](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html) for details.
 
+1. download DynamoDB .zip package from the tutorial
 
-    $ aws dynamodb create-table --table-name arxivTable     --attribute-definitions AttributeName=_id,AttributeType=S --key-schema AttributeName=_id,KeyType=HASH --billing-mode PAY_PER_REQUEST --endpoint-url http://localhost:8000
+2. extract package to chosen location
 
-If needed, you can destroy the table using the command: 
+3. from a bash shell, at this location, launch  DynamoDBLocal.jar with:
 
-    $ aws dynamodb delete-table --table-name arxivTable --endpoint-url http://localhost:8000
+        $ java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+
+4. keep this shell window open to use your DB
+5. in another shell tab, create your table 
+
+        $ aws dynamodb create-table --table-name arxivTable     --attribute-definitions AttributeName=_id,AttributeType=S --key-schema AttributeName=_id,KeyType=HASH --billing-mode PAY_PER_REQUEST --endpoint-url http://localhost:8000
+6. check if th etable exists
+        $ aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+7. When needed, you can destroy the table using the command: 
+
+        $ aws dynamodb delete-table --table-name arxivTable --endpoint-url http://localhost:8000
 
 ## Launch microservice on localhost
 
