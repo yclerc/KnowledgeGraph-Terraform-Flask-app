@@ -10,18 +10,8 @@ from flask import Flask, send_from_directory
 from werkzeug.utils import secure_filename
 from models import model
 
-# create folder for uploaded pdf files in current directory
-UPLOAD_FOLDER = os.path.dirname(os.path.abspath(__file__)) + "/uploads/"
-DOWNLOAD_FOLDER = os.path.dirname(os.path.abspath(__file__)) + "/downloads/"
-ALLOWED_EXTENSIONS = {"pdf"}
-
 # Flask app
 app = Flask(__name__)
-
-DIR_PATH = os.path.dirname(os.path.realpath(__file__))
-app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
-app.config["DOWNLOAD_FOLDER"] = DOWNLOAD_FOLDER
-
 
 @app.route("/")
 def hello():
@@ -32,13 +22,12 @@ def hello():
     json_output = {"Microservice Status": "UP", "Number of files in database":status,"API specifications": "https://documenter.getpostman.com/view/20033934/UVsLS6ja"}
     return json_output, 200
 
-
 @app.route("/arxiv/unit/<input_arxiv_id>", methods=["GET", "POST"])
 def unit_populate_from_arxiv(input_arxiv_id):
-
-    #try:
+    try:
         search = arxiv.Search(id_list=[input_arxiv_id])
         result = next(search.results())
+        
         # initialize variables
         lst = []
         file_id = 0
@@ -71,13 +60,12 @@ def unit_populate_from_arxiv(input_arxiv_id):
                 "Response": "This file is already stored in the database",
             }
             return json_output, 400
-    # except:
-    #     json_output = {
-    #         "Files added": 0,
-    #         "Response": "It seems the ID you entered is not valid. Please consider using an accurate arxiv ID such as 2102.04706 or 2102.04706v1",
-    #     }
-    #     return json_output, 400
-
+    except:
+         json_output = {
+             "Files added": 0,
+             "Response": "It seems the ID you entered is not valid. Please consider using an accurate arxiv ID such as 2102.04706 or 2102.04706v1",
+         }
+         return json_output, 400
 
 @app.route("/arxiv/batch/<int:batch_size>", methods=["GET", "POST"])
 def batch_populate_from_arxiv(batch_size):
@@ -85,7 +73,7 @@ def batch_populate_from_arxiv(batch_size):
     # 3 min runtime on MacPro for 20 files. Check multi-threading to increase perf ??
     # generate guidance message
 
-    #try:
+    try:
         # search for selected query, returns latest documents related to the query from arxiv 
         search = arxiv.Search(
             query="Computer Science & AI",
@@ -125,12 +113,12 @@ def batch_populate_from_arxiv(batch_size):
         json_output = {"Files added": file_id, "Details": lst , "Response":"If 0 files were added, the database is already up to date with latest documents from arxiv. In this case, batch requests are not allowed. Please consider uploading specific documents through the /arxiv/unit/<input_arxiv_id> method"}
         return json_output, 200
 
-    # except:
-    #     json_output = {
-    #         "Files added": 0,
-    #         "Response": "It seems your request has exceeded currently allowed network capabilities. Please consider using a smaller batch size or uploading specific documents through the /arxiv/unit/<input_arxiv_id> method",
-    #     }
-    #     return json_output, 500
+    except:
+        json_output = {
+            "Files added": 0,
+            "Response": "It seems your request has exceeded currently allowed network capabilities. Please consider using a smaller batch size or uploading specific documents through the /arxiv/unit/<input_arxiv_id> method",
+        }
+        return json_output, 500
 
 @app.route("/onto/", methods=["GET"])
 def get_onto():
@@ -139,45 +127,5 @@ def get_onto():
     world = model.create_onto()
     return send_from_directory("ontologies", "world.owl"), 200
 
-"""
-@app.route("/documents/<int:doc_id>", methods=["GET"])
-def get_document(doc_id):
-    #to get metadata of specific documents
-    if request.method == "GET":
-        if doc_id < 1 or doc_id > model.db_size():
-            json_output = {"Text ID": "Invalid ID", "Meta Data": "No data"}
-            return json_output, 400
-        else:
-            output = model.extract_info(doc_id)
-            json_output = {
-                "Text ID": doc_id,
-                "Meta Data": {
-                    "Title": output[0][0],
-                    "Author": output[0][1],
-                    "Producer": output[0][2],
-                    "Subject": output[0][3],
-                    "Pages": output[0][4],
-                },
-            }
-            # print(json_output)
-            return json_output, 200
-"""
-
-"""
-@app.route("/text/<int:doc_id>", methods=["GET"])
-def get_text(doc_id):
-    #to get content of specific file
-    
-    if request.method == "GET":
-        if doc_id < 1 or doc_id > model.db_size():
-            json_output = {"Text ID": "Invalid ID", "Content": "No data"}
-            return json_output, 400
-        else:
-            output = model.extract_content(doc_id)
-            output_str = str(output[0][0])
-            json_output = {"Text ID": doc_id, "Content": output_str}
-            # print(json_output)
-            return json_output, 200
-"""
 if __name__ == "__main__":
     app.run(threaded=True, host="0.0.0.0", port=5000)

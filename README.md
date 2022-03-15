@@ -17,6 +17,9 @@
 ---
 **Table of Contents**  
 - [General info](#general-info)
+- [Flask App](#flask-app)
+  - [App folder structure](#app-folder-structure)  
+  - [Functional blocks ](#functional-blocks)  
 - [Install](#install)
   - [Quickstart](#quickstart)
   - [Select endpoint for database](#select-endpoint-for-database)
@@ -42,6 +45,30 @@ This project deploys an API on AWS according to the following workflow:
 ![devops](./images/devops.png)
 	
 
+# Flask App 
+
+## [./app](./app) folder structure 
+
+- downloads/ --------- temp folder when downloading pdf from arxiv
+- models/ ------------- helper functions for app.py
+- ontologies/ --------- to store generated ontology world.owl
+- templates/ ---------- html templates for rendering in web browser (not supported in this version)
+- tests/ ---------------- test scripts for pytest (not supported in this version)
+- uploads/ ------------ folder to stage manually pdf documents for upload (not supported in this version)
+- app.py -------------- flask app and main routes
+- Dockerfile ---------- to build container 
+- requirements.txt --- project dependencies generated using [pipreqs](https://pypi.org/project/pipreqs/) package 
+
+
+## Functional blocks
+- Web Scrapping
+    - queries through pythn arxiv API package
+- Natural Language Processing
+    - use spacy with pre-trained en_core_web_sm model
+- Ontology / Knowledge Graph  
+    - use owlready2
+    - currently does not support exact foaf model (due to import bug in Protégé)
+    
 
 
 # Install
