@@ -267,10 +267,10 @@ Clean code automatically on app files by using black package:
 
 ## Work with generated ontology 
 
-- Install [Protégé](https://protege.stanford.edu) locally on your machine
-- Open downloaded file worl.owl 
-- Launch reasoner (Pellet)
-- Visualize Graph using Protége plug-in OntoGraf
+- Install [Protégé](https://protege.stanford.edu) on your machine
+- Open downloaded file [worl.owl](./app/ontologies/world.owl) 
+- Launch reasoner in Protégé (Pellet)
+- Visualize Graph using Protégé plug-in OntoGraf
 
 
 
