@@ -69,6 +69,16 @@ def scanRecursive(tableName, **kwargs):
     return data
 
 
+def AWS_db_check():
+    try:
+        #returns number of rows in table 
+        count=scanRecursive(dynamoTableName, Select="COUNT")
+        return count
+    except: 
+        return -1
+    
+
+
 def create_onto():
     """
     Create ontology architecture
@@ -249,68 +259,3 @@ def process_arxiv_file(path, arxiv_id, title, authors_lst):
     resp = client.put_item(TableName=dynamoTableName, Item=post)
 
     return arxiv_id, params
-
-"""
-def db_size():
-    #returns number of rows in table DOCUMENTS
-    db = sqlite3.connect("Documents.sqlite")
-    cur = db.cursor()
-    cur.execute("select * from DOCUMENTS")
-    return len(cur.fetchall())
-"""
-
-"""
-def extract_info(doc_id):
-    "extracts info columns from select row in DB
-    db = sqlite3.connect("Documents.sqlite")
-    cur = db.cursor()
-    cur.execute(
-        "select title, author, producer, subject, pages \
-                from DOCUMENTS WHERE id=(?)",
-        (doc_id,),
-    )
-    output = cur.fetchall()
-    return output
-"""
-
-"""
-def extract_content(doc_id):
-    "extract "content" column from select row in DB
-    db = sqlite3.connect("Documents.sqlite")
-    cur = db.cursor()
-    cur.execute("select content from DOCUMENTS WHERE id=(?)", (doc_id,))
-    output = cur.fetchall()
-    return output
-"""
-
-"""
-def process_file(path):
-    #extract necessary data and execute sql query for given file
-    #use function defined above to get content of pdf file
-    #use PyPDF2 to get metadata
-    
-    db = sqlite3.connect("Documents.sqlite")
-    cur = db.cursor()
-    content = convert_pdf_to_txt(path)
-    with open(path, "rb") as file:
-        pdf = PdfFileReader(file)
-        doc_info = pdf.getDocumentInfo()
-        info = (
-            doc_info.title,
-            doc_info.author,
-            doc_info.producer,
-            doc_info.subject,
-            pdf.getNumPages(),
-        )
-    params = info + (str(content),)
-    cur.execute(
-        "insert into DOCUMENTS \
-    (title,author,producer,subject,pages,content) \
-    VALUES (?, ?, ?, ?, ?, ?)",
-        params,
-    )
-    doc_id = cur.lastrowid
-    db.commit()
-    return doc_id, params
-"""
-
