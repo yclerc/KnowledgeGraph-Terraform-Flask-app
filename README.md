@@ -1,9 +1,21 @@
 
 # KnowledgeGraph-Terraform-Flask-app
 
-- _Description:_ API to generate Knowledge Graphs from [arxiv.org](https://arxiv.org)
-
 - _Author:_ [Yann CLERC](https://github.com/yclerc)
+- _Description:_ Deployment framework to AWS for secure, autoscaling, High-Availability microservices
+- _Provided microservice:_ In this example, we use an API generating Knowledge Graphs from [arxiv.org](https://arxiv.org)
+- _Use:_
+    * with provided flask app 
+    * with your own flask app
+        - add your app file structure
+        - update requirements.txt
+        - update Dockerfile
+        - That's it ! :)
+
+
+
+
+
 
 ---
 **Table of Contents**  
