@@ -28,7 +28,6 @@
   - [Remove deployed architecture](#remove-deployed-architecture)
 - [Use](#use)
   - [API manager](#api-manager)
-  - [Routes definition](#routes-definition)
   - [Test](#test)
   - [Monitor](#monitor)
   - [Work with generated ontology](#work-with-generated-ontology)
@@ -192,57 +191,10 @@ In case of errors during deletion, check manually from AWS Console for services 
 
 ## API manager 
 
+An API contract is provided through [Postman API Platform](https://www.postman.com), based on [OpenAPI](https://www.youtube.com/watch?v=InE6Odx--xo) specifications.
 
+See [API Contract](https://documenter.getpostman.com/view/20033934/UVsLRRU3) for information on the API and available routes
 
-
-## Routes definition
-
-### Upload a file
-
-Post a file to the server:
-
-**Request through web UI**
-
-    HTTP Method: POST
-    Route: /
-
-**Request using curl**
-
-    HTTP Method: POST
-    Route: /upload
-    
-    $ curl POST -F file=@"./uploads/test.pdf" localhost:5000/upload
-
-NB: for Windows users, in case of error, remove aliase for curl using the following command:
-
-    $ Remove-item alias:curl
-
-
-### Check an uploaded file
-
-Get the status of an uploaded file and show his meta data:
-
-**Request**
-
-    HTTP Method: GET
-    Route: /documents/<id>
-    # Replace <id> by ID of the chosen document
-    # The ID was returned in response of an upload file request
-
-    $ curl localhost:5000/documents/1
-
-### Text of an uploaded file
-
-Get content of an uploaded file:
-
-**Request**
-
-    HTTP Method: GET
-    Route: /text/<id>
-    # Replace <id> by ID of the chosen document
-    # The ID was returned in response of an upload file request
-
-    $ curl localhost:5000/text/1
 
 
 ## Test
@@ -265,6 +217,7 @@ Perform unit tests from [tests](./app/tests/) folder
 
 
 ## Monitor
+Monitor you microservice from [AWS CloudWatch](https://aws.amazon.com/cloudwatch/)
 
 
 
