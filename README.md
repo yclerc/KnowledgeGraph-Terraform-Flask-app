@@ -224,7 +224,11 @@ In case of errors during deletion, check manually from AWS Console for services 
 
 An API contract is provided through [Postman API Platform](https://www.postman.com), based on [OpenAPI](https://www.youtube.com/watch?v=InE6Odx--xo) specifications.
 
-See [API Contract](https://documenter.getpostman.com/view/20033934/UVsLRRU3) for information on the [KnowledgeGraph-Terraform-Flask-app](.) API and available routes
+See API contracts for information on the [KnowledgeGraph-Terraform-Flask-app](.) API and available routes:
+
+- [Local API Contract](https://documenter.getpostman.com/view/20033934/UVsLS6ja)
+- TO DO for cloud hosted solution
+
 
 See these [resources](https://idratherbewriting.com/learnapidoc/index.html) for more content on how to document APIs
 

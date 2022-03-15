@@ -25,8 +25,9 @@ app.config["DOWNLOAD_FOLDER"] = DOWNLOAD_FOLDER
 
 @app.route("/")
 def hello():
+    # add function to check if DB is up ? change response based on that 
     # change to send available commands ?? Link with API manager ??
-    json_output = {"Microservice Status": "UP", "API specifications": "https://documenter.getpostman.com/view/20033934/UVsLRRU3"}
+    json_output = {"Microservice Status": "UP", "API specifications": "https://documenter.getpostman.com/view/20033934/UVsLS6ja"}
     return json_output, 200
 
 
