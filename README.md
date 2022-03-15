@@ -22,7 +22,7 @@
   - [Select endpoint for database](#select-endpoint-for-database)
   - [Launch microservice on localhost](#launch-microservice-on-localhost)
   - [Docker locally](#docker-locally)
-- [Deploy with IaaC](#deploy-with-iaac)
+- [Deploy](#deploy)
   - [Docker push to AWS](#docker-push-to-aws)
   - [Deploy Terraform plan](#deploy-terraform-plan)
   - [Remove deployed architecture](#remove-deployed-architecture)
@@ -30,6 +30,7 @@
   - [API manager](#api-manager)
   - [Routes definition](#routes-definition)
   - [Test](#test)
+  - [Monitor](#monitor)
   - [Work with generated ontology](#work-with-generated-ontology)
  
 
@@ -106,7 +107,7 @@ build and run container using following commands.
     $ curl http://localhost:5000
 
 
-# Deploy with IaaC
+# Deploy
 
 Resulting architecture generated in AWS :
 ![Flask-Microservice](./images/Flask-Microservice.png)
@@ -258,9 +259,18 @@ Clean code automatically on app files by using black package:
     $ python -m pytest
 
 
+## Monitor
+
+
+
 
 
 ## Work with generated ontology 
+
+- Install [Protégé](https://protege.stanford.edu) locally on your machine
+- Open downloaded file worl.owl 
+- Launch reasoner (Pellet)
+- Visualize Graph using Protége plug-in OntoGraf
 
 
 
