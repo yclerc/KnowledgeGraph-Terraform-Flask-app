@@ -63,7 +63,7 @@ This project deploys an API on AWS according to the following workflow:
 
 ## Quickstart
 
-This package requires python 3 (including venv), git and a recent OS
+This package requires python 3 (including venv), git and a recent OS.
 
 Clone and go to the newly created repository :
 
@@ -213,10 +213,22 @@ You can finally delete the ECR registry directly from your browser in AWS consol
 
 Post a file to the server:
 
-**Request**
+**Request through web UI**
 
-    HTTP Methode: POST
+    HTTP Method: POST
     Route: /
+
+**Request using curl**
+
+    HTTP Method: POST
+    Route: /upload
+    
+    $ curl POST -F file=@"./uploads/test.pdf" localhost:5000/upload
+
+NB: for Windows users, in case of error, remove aliase for curl using the following command:
+
+    $ Remove-item alias:curl
+
 
 ### Check an uploaded file
 
@@ -224,10 +236,12 @@ Get the status of an uploaded file and show his meta data:
 
 **Request**
 
-    HTTP Methode: GET
+    HTTP Method: GET
     Route: /documents/<id>
     # Replace <id> by ID of the chosen document
     # The ID was returned in response of an upload file request
+
+    $ curl localhost:5000/documents/1
 
 ### Text of an uploaded file
 
@@ -235,10 +249,13 @@ Get content of an uploaded file:
 
 **Request**
 
-    HTTP Methode: GET
+    HTTP Method: GET
     Route: /text/<id>
     # Replace <id> by ID of the chosen document
     # The ID was returned in response of an upload file request
+
+    $ curl localhost:5000/text/1
+
 
 ## Test
 
