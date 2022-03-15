@@ -29,8 +29,6 @@ def hello():
     json_output = {"Microservice Status": "UP", "API specifications": "https://documenter.getpostman.com/view/20033934/UVsLRRU3"}
     return json_output, 200
 
-    return "Hello World!", 200
-
 
 @app.route("/arxiv/unit/<input_arxiv_id>", methods=["GET", "POST"])
 def unit_populate_from_arxiv(input_arxiv_id):

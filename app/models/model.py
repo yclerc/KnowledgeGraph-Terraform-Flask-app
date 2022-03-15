@@ -3,10 +3,7 @@ Support functions for app.py
 """
 from io import StringIO
 import json
-
-# import os
 from urllib.parse import unquote_plus
-
 
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
@@ -21,13 +18,7 @@ import en_core_web_sm
 import boto3
 from boto3.dynamodb.types import TypeSerializer, TypeDeserializer
 
-ts = TypeSerializer()
-td = TypeDeserializer()
-
 import dns
-
-# import certifi
-# import shutil
 
 
 # Access to MongoDB Atlas cluster __________________
@@ -84,10 +75,10 @@ def create_onto():
     """
     onto = get_ontology(
         "http://fil_rouge/onto.owl/"
-    )  # nouvelle ontologie, on donne son IRI
+    )  # new ontology, chose an IRI
     with onto:
         # Define a Person
-        class Person(Thing):  # nouvelle classe sous-classe de Thing
+        class Person(Thing):  # class Person is a subclass of Thing
             pass
         # Define a Document
         class Document(Thing):
@@ -141,7 +132,7 @@ def create_onto():
                 new_reference.isReferredIn = [new_doc]
     default_world.save(
         "./ontologies/world.owl"
-    )  # génération de code structures such as <stud:Person rdf:about="http://students.org/alice">
+    )  # generates ontology structure such as: <stud:Person rdf:about="http://students.org/alice">
     return default_world
 
 def convert_pdf_to_txt(path):
@@ -149,7 +140,6 @@ def convert_pdf_to_txt(path):
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     laparams = LAParams()
-    # device = TextConverter(rsrcmgr, retstr, codec="utf-8", laparams=laparams)
     device = TextConverter(rsrcmgr, retstr, laparams=laparams)
     with open(path, "rb") as file:
         interpreter = PDFPageInterpreter(rsrcmgr, device)
