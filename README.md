@@ -11,8 +11,10 @@
         - update requirements.txt
         - update Dockerfile
         - update terraform files config.tf and variables.tf
-        - That's it ! :)
-    * feel free to contribute to this project by creating issues
+        - That's it ! 
+---
+
+**NB:** Feel free to contribute to this project by creating issues :) 
 
 ---
 **Table of Contents**  
@@ -62,12 +64,12 @@ This project deploys an API on AWS according to the following workflow:
 
 ## Functional blocks
 - Web Scrapping
-    - queries through pythn arxiv API package
+    - queries through python [arxiv API](https://pypi.org/project/arxiv/)
 - Natural Language Processing
-    - use spacy with pre-trained en_core_web_sm model
+    - use spacy with pre-trained [en_core_web_sm model](https://spacy.io/models/en#en_core_web_sm)
 - Ontology / Knowledge Graph  
-    - use owlready2
-    - currently does not support exact foaf model (due to import bug in Protégé)
+    - use [owlready2](https://owlready2.readthedocs.io/en/latest/)
+    - currently does not start from [foaf](http://xmlns.com/foaf/spec/) model (due to import bug in Protégé)
     
 
 
@@ -260,7 +262,7 @@ See these [resources](https://idratherbewriting.com/learnapidoc/index.html) for 
 
 
 
-## Test scenarii
+## Use scenarii
 
 ### Test the fully hosted microservice
 - Go to provided endpoint 
@@ -268,24 +270,15 @@ See these [resources](https://idratherbewriting.com/learnapidoc/index.html) for 
 - Upload unit file
 - Generate onto 
 
+
+_OR_ 
+
 ### Deploy your own cloud hosted microservice 
 - Follow [Deploy](#deploy) section
 - same steps as for fully hosted microservice
 - Launch API from your machine to perform batch imports
 
----
-**NB:** 
-- The fully hosted Flask app relies extensively on network connectivity. 
-- An area of improvement could be to use a cache such as [celery](https://flask.palletsprojects.com/en/1.1.x/patterns/celery/).
-- Another option would be to tweak parameters of the architecture, especially limitations on: 
-    - Internet Gateway, 
-    - NAT Gateway, 
-    - Application Load Balancer.
-- Always prefer to launch batch imports from local API instance
----
-Example of successful batch request from local API instance, 10 documents, elapsed time: 3 min
-![batch10success](./images/batch10success.png)
-
+_OR_ 
 
 ### Test your own microservice on localhost 
 - launch local API instance (with either local or remote DynamoDB)
@@ -293,9 +286,28 @@ Example of successful batch request from local API instance, 10 documents, elaps
 - Perform batch imports (for instance, batch size = increasing multiples of 10)
 
 
+---
+**NB:** 
+- The fully hosted Flask app relies extensively on network connectivity. 
+- Always prefer to launch batch imports from local API instance
+- An area of improvement could be to use a cache such as [celery](https://flask.palletsprojects.com/en/1.1.x/patterns/celery/).
+- Another option would be to tweak parameters of the architecture, especially limitations on: 
+    - Internet Gateway, 
+    - NAT Gateway, 
+    - Application Load Balancer.
+
+---
+Example of successful batch request from local API instance, 10 documents, elapsed time: 3 min
+![batch10success](./images/batch10success.png)
+
+
+
+
 
 
 ### Code testing librairies
+Testing not yet maintained in this version. 
+Tech stack to use: 
 
 **black**:
 Clean code automatically on app files by using black package
@@ -323,19 +335,12 @@ Monitor you microservice from [AWS CloudWatch](https://aws.amazon.com/cloudwatch
 
 - Install [Protégé](https://protege.stanford.edu) on your machine
 - Open downloaded file [worl.owl](./app/ontologies/world.owl) 
-- Launch reasoner in Protégé (Pellet)
+- Launch [reasoner](https://protegewiki.stanford.edu/wiki/Using_Reasoners) in Protégé (Pellet)
 - Visualize Graph using Protégé plug-in OntoGraf
 
 
-
-
-
-
-
-
-
-
-
+Example of Knowledge Graph obtained in Protégé:
+![ontlogy](./images/ontology.png)
 
 
 
