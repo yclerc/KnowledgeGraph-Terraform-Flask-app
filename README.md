@@ -264,25 +264,29 @@ See these [resources](https://idratherbewriting.com/learnapidoc/index.html) for 
 
 ## Use scenarii
 
-### Test the fully hosted microservice
+To Do: programatic access for tester in fully hosted scenarii??
+--> AWS IAM role and associated acces keys for DynamoDB ???
+
+### Test fully hosted microservice
 - Go to provided endpoint 
 - Security, access restriction: TBD
 - Upload unit file
-- Generate onto 
+- **Upload batch not supported** 
+- Generate ontology 
 
 
 _OR_ 
 
 ### Deploy your own cloud hosted microservice 
 - Follow [Deploy](#deploy) section
-- same steps as for fully hosted microservice
+- with your endpoint, same steps as for fully hosted microservice
 - Launch API from your machine to perform batch imports
 
 _OR_ 
 
 ### Test your own microservice on localhost 
 - launch local API instance (with either local or remote DynamoDB)
-- same steps as for fully hosted microservice
+- with your endpoint, same steps as for fully hosted microservice
 - Perform batch imports (for instance, batch size = increasing multiples of 10)
 
 
@@ -327,8 +331,7 @@ Rate code quality and suggests improvements
 ## Monitor
 Monitor you microservice from [AWS CloudWatch](https://aws.amazon.com/cloudwatch/)
 
-
-
+Follow this [tutorial](https://www.bluematador.com/blog/how-to-monitor-amazon-dynamodb-with-cloudwatch) to implement monitoring. 
 
 
 ## Work with generated ontology 

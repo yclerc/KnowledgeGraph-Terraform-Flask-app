@@ -68,16 +68,15 @@ def scanRecursive(tableName, **kwargs):
         data.extend(response["Items"])
     return data
 
-
 def AWS_db_check():
+    """
+    Returns number of items in DB or -1 if impossible to connect 
+    """
     try:
-        #returns number of rows in table 
         count=scanRecursive(dynamoTableName, Select="COUNT")
         return count
     except: 
         return -1
-    
-
 
 def create_onto():
     """
@@ -111,7 +110,7 @@ def create_onto():
             pass
         # Define Reference class
         class Reference(Person):
-            # as a Person who teaches some Course
+            # as a Person referred in a document 
             equivalent_to = [And([Person, isReferredIn.some(Document)])]
 
     # create ontology file from instances in MongoDB Atlas.
