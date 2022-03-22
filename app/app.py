@@ -22,7 +22,7 @@ def hello():
     json_output = {"Microservice Status": "UP", "Number of files in database":status,"API specifications": "https://documenter.getpostman.com/view/20033934/UVsLS6ja"}
     return json_output, 200
 
-@app.route("/arxiv/unit/<input_arxiv_id>", methods=["GET", "POST"])
+@app.route("/arxiv/unit/<input_arxiv_id>", methods=["GET"])
 def unit_populate_from_arxiv(input_arxiv_id):
     try:
         search = arxiv.Search(id_list=[input_arxiv_id])
@@ -67,7 +67,7 @@ def unit_populate_from_arxiv(input_arxiv_id):
          }
          return json_output, 400
 
-@app.route("/arxiv/batch/<int:batch_size>", methods=["GET", "POST"])
+@app.route("/arxiv/batch/<int:batch_size>", methods=["GET"])
 def batch_populate_from_arxiv(batch_size):
 
     # 3 min runtime on MacPro for 20 files. Check multi-threading to increase perf ??
@@ -87,13 +87,17 @@ def batch_populate_from_arxiv(batch_size):
         lst = []
         file_id = 0
 
+        #scan documents currently in DB
+        file_lst = model.AWS_db_persisted_files()
+
+
         # Download PDF to a specified directory with a custom filename.
         for result in search.results():
             # to get unique id from arxiv uri
             arxiv_id = result.get_short_id()
 
-            # scan for existing documents in DB
-            if model.arxiv_db_check(arxiv_id):
+            # to avoid persisting again files that are already in DB
+            if (arxiv_id not in file_lst):
                 file_name = "arxiv_downloaded_" + str(file_id) + ".pdf"
                 result.download_pdf(dirpath="./downloads", filename=file_name)
                 file_path = "./downloads/" + file_name

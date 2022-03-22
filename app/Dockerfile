@@ -7,6 +7,7 @@ RUN python3 --version
 #preinstall spacy and model to avoid crashing container image
 RUN pip install -U spacy
 RUN python -m spacy download en_core_web_sm
+#RUN python -m spacy download en_core_web_trf
 
 # to get other requirements
 RUN pip install -r requirements.txt

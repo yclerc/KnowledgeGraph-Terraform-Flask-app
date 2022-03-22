@@ -68,10 +68,18 @@ def scanRecursive(tableName, **kwargs):
         data.extend(response["Items"])
     return data
 
+def AWS_db_persisted_files():
+    file_lst=[]
+    instances=scanRecursive(dynamoTableName)
+    for instance in instances: 
+        file_lst.append(instance["_id"]["S"])
+    return file_lst
+
 def AWS_db_check():
     """
     Returns number of items in DB or -1 if impossible to connect 
     """
+
     try:
         count=scanRecursive(dynamoTableName, Select="COUNT")
         return count
@@ -122,12 +130,6 @@ def create_onto():
         # loop in results from the query 
         # for each item, instanciate onto
         with onto:
-            # tests:
-            # use [] to avoid encoding issue with Protege
-            # doc_name=str([instance['title']['S']])
-            # print(instance['_id']['S'])
-            # new_doc= Document(name=doc_name)
-
             doc_name = str(instance["_id"]["S"])
             new_doc = Document(name=doc_name)
             new_doc.has_title = [instance["title"]["S"]]
@@ -135,10 +137,13 @@ def create_onto():
                 author_name = [str(author).replace("%20", " ")]
                 new_author = Person(name=author_name)
                 new_author.makes = [new_doc]
+                #print(author_name[0])
+
             for reference in instance["References"]["SS"]:
                 ref_name = [str(reference).replace("%20", " ")]
                 new_reference = Person(name=ref_name)
                 new_reference.isReferredIn = [new_doc]
+                #print(ref_name[0])
     default_world.save(
         "./ontologies/world.owl"
     )  # generates ontology structure such as: <stud:Person rdf:about="http://students.org/alice">
@@ -212,16 +217,30 @@ def process_arxiv_file(path, arxiv_id, title, authors_lst):
         content_ref = content[ref_position:]
 
     # to get named entities
-    nlp = en_core_web_sm.load()
-    # nlp = spacy.load('en_core_web_sm')
+    # nlp = en_core_web_sm.load()
+    nlp = spacy.load('en_core_web_sm')
     doc = nlp(content_ref)
     ref_lst = []
     for ent in doc.ents:
         if ent.label_ == "PERSON":
             ref_lst.append(ent.text)
 
+    # //////////////////////////
+    # CLEANING UP AREA !!!
+
     # to remove duplicates
     ref_lst = list(dict.fromkeys(ref_lst))
+
+    # Filter references based on exceptions
+    exceptions = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'arxiv', ',', ':','/',']','[','\n', 'ˇ']
+    references = ref_lst
+    filter_data = [x for x in references if
+                all(y not in x for y in exceptions)]
+    # Filter to keep only strings with a whitespace
+    filter_data= [x for x in filter_data if ' ' in x]
+    #print("Filter Data:")
+    #print(filter_data)
+    # ///////////////////////////////////
 
     with open(path, "rb") as file:
         pdf = PdfFileReader(file)
@@ -235,7 +254,8 @@ def process_arxiv_file(path, arxiv_id, title, authors_lst):
             doc_info.subject,
             pdf.getNumPages(),
         )
-    params = info + (str(ref_lst),)
+    params = info + (str(filter_data),)
+    #print(params)
 
     """
     # post to MongoDB
@@ -253,7 +273,7 @@ def process_arxiv_file(path, arxiv_id, title, authors_lst):
         "_id": {"S": arxiv_id},
         "title": {"S": title},
         "Authors": {"SS": json.loads(authors_lst)},
-        "References": {"SS": ref_lst},
+        "References": {"SS": filter_data},
     }
     resp = client.put_item(TableName=dynamoTableName, Item=post)
 
