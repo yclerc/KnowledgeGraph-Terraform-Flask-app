@@ -132,17 +132,17 @@ def create_onto():
         with onto:
             doc_name = str(instance["_id"]["S"])
             new_doc = Document(name=doc_name)
-            new_doc.has_title = [instance["title"]["S"]]
+            new_doc.has_title.append(instance["title"]["S"])
             for author in instance["Authors"]["SS"]:
                 author_name = [str(author).replace("%20", " ")]
                 new_author = Person(name=author_name)
-                new_author.makes = [new_doc]
+                new_author.makes.append(new_doc)
                 #print(author_name[0])
 
             for reference in instance["References"]["SS"]:
                 ref_name = [str(reference).replace("%20", " ")]
                 new_reference = Person(name=ref_name)
-                new_reference.isReferredIn = [new_doc]
+                new_reference.isReferredIn.append(new_doc)
                 #print(ref_name[0])
     default_world.save(
         "./ontologies/world.owl"
