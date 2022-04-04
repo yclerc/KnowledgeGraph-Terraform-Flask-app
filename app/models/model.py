@@ -21,15 +21,6 @@ from boto3.dynamodb.types import TypeSerializer, TypeDeserializer
 import dns
 
 
-# Access to MongoDB Atlas cluster __________________
-"""
-url = "mongodb+srv://<PARAMETER1>:<PARAMETER2>@ycfilrouge.z8etj.mongodb.net/ycfilrouge?retryWrites=true&w=majority"
-cluster=MongoClient(url, tlsCAFile=certifi.where())
-mongo_db=cluster["arxiv"]
-collection=mongo_db["arxiv-AI"]
-"""
-# _________________________________________________
-
 # Access to AWS DynamoDB cluster  __________________
 
 # client for connection to hosted DynamoDB on AWS

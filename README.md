@@ -99,7 +99,7 @@ Create a deployment virtualenv and activate it:
 
     # for Windows systems:
     $ python -m venv deploy_venv
-    $ deploy_venv\Scripts\activate
+    $ deploy venv\Scripts\activate
 
 Install requirements from txt file:
 
@@ -110,7 +110,6 @@ Install requirements from txt file:
 Various DB available: 
 
     - local DynamoDB, for integration testing
-    - hosted MongoDB Atlas DB, initial choice to expose the API (ask admin for credentials)
     - hosted AWS DynamoDB, for production 
 
 Select chosen option by commenting/uncommenting related lines in [models/model.py](./app/models/model.py)
