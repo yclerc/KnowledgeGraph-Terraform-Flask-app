@@ -22,6 +22,35 @@ def hello():
     json_output = {"Microservice Status": "UP", "Number of files in database":status,"API specifications": "https://documenter.getpostman.com/view/20033934/UVsLS6ja"}
     return json_output, 200
 
+@app.route("/arxiv/test_nlp/", methods=["GET"])
+def test_nlp():
+    lst=[]
+    test_lst=[2203.08617, 2203.08111, 2203.08015]
+    for file_id in test_lst:
+        search = arxiv.Search(id_list=[str(file_id)])
+        result = next(search.results())
+        file_name = "arxiv_downloaded_" + str(file_id) + ".pdf"
+        result.download_pdf(dirpath="./downloads", filename=file_name)
+        file_path = "./downloads/" + file_name
+        authors_lst=['jean test']
+        info = model.process_arxiv_file(
+                file_path, file_id, result.title, authors_lst,0
+            )
+        file_ref_lst=info[6]
+        with open('./tests/gt_texts/'+ str(file_id)+'.pdf.json', 'r') as json_file:
+	        json_load = json.load(json_file)
+        
+        comparison = [value for value in file_ref_lst if value in json_load['named_entities']] 
+
+        # score = true positives
+        score= round(len(comparison)/len(json_load['named_entities']),2)
+        #print(score*100)
+        lst.append({"ID": str(file_id), "% true positives": score*100})
+        os.remove(file_path)
+
+    json_output={"Status": "Successfully performed reference tests", "Scores": lst}
+    return json_output, 200
+
 @app.route("/arxiv/unit/<input_arxiv_id>", methods=["GET"])
 def unit_populate_from_arxiv(input_arxiv_id):
     try:
@@ -46,7 +75,7 @@ def unit_populate_from_arxiv(input_arxiv_id):
             authors_lst = json.dumps(authors_lst)
             # path, title authors
             info = model.process_arxiv_file(
-                file_path, arxiv_id, result.title, authors_lst
+                file_path, arxiv_id, result.title, authors_lst,1
             )
             lst.append({"Title": result.title, "URI": result.pdf_url})
             file_id += 1
@@ -109,7 +138,7 @@ def batch_populate_from_arxiv(batch_size):
                 authors_lst = json.dumps(authors_lst)
                 # path, title authors
                 info = model.process_arxiv_file(
-                    file_path, arxiv_id, result.title, authors_lst
+                    file_path, arxiv_id, result.title, authors_lst, 1
                 )
                 lst.append({"Title": result.title, "URI": result.pdf_url})
                 file_id += 1

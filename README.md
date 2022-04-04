@@ -129,7 +129,8 @@ Refer to this [tutorial](https://docs.aws.amazon.com/amazondynamodb/latest/devel
 5. in another shell tab, create your table 
 
         $ aws dynamodb create-table --table-name arxivTable     --attribute-definitions AttributeName=_id,AttributeType=S --key-schema AttributeName=_id,KeyType=HASH --billing-mode PAY_PER_REQUEST --endpoint-url http://localhost:8000
-6. check if th etable exists
+6. check if the table exists
+
         $ aws dynamodb list-tables --endpoint-url http://localhost:8000
 
 7. When needed, you can destroy the table using the command: 

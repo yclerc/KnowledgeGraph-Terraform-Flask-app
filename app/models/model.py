@@ -24,10 +24,10 @@ import dns
 # Access to AWS DynamoDB cluster  __________________
 
 # client for connection to hosted DynamoDB on AWS
-client = boto3.client("dynamodb", region_name="eu-west-3")
+# client = boto3.client("dynamodb", region_name="eu-west-3")
 
 # cliient for connection to local DynamoDB
-# client = boto3.client('dynamodb', endpoint_url="http://localhost:8000")
+client = boto3.client('dynamodb', endpoint_url="http://localhost:8000")
 
 dynamoTableName = "arxivTable"
 # __________________________________________________
@@ -185,7 +185,7 @@ def arxiv_db_check(arxiv_id):
         return False
 
 
-def process_arxiv_file(path, arxiv_id, title, authors_lst):
+def process_arxiv_file(path, arxiv_id, title, authors_lst, post_trigger):
     """
     extracts necessary data and execute query for given arxiv file
     uses function defined above to get content of pdf file
@@ -245,27 +245,20 @@ def process_arxiv_file(path, arxiv_id, title, authors_lst):
             doc_info.subject,
             pdf.getNumPages(),
         )
-    params = info + (str(filter_data),)
+    #params = info + (str(filter_data),)
+    params = info + (filter_data,)
     #print(params)
 
-    """
-    # post to MongoDB
-    post={
-        "_id": arxiv_id,
-        "title": title,
-        "Authors": json.loads(authors_lst),
-        "References": ref_lst
-    }
-    #collection.insert_one(post)
-    """
+    if post_trigger ==1:
+        # post to DynamoDB
+        post = {
+            "_id": {"S": arxiv_id},
+            "title": {"S": title},
+            "Authors": {"SS": json.loads(authors_lst)},
+            "References": {"SS": filter_data},
+        }
+        resp = client.put_item(TableName=dynamoTableName, Item=post)
 
-    # post to DynamoDB
-    post = {
-        "_id": {"S": arxiv_id},
-        "title": {"S": title},
-        "Authors": {"SS": json.loads(authors_lst)},
-        "References": {"SS": filter_data},
-    }
-    resp = client.put_item(TableName=dynamoTableName, Item=post)
+    return params
 
-    return arxiv_id, params
+
