@@ -69,7 +69,7 @@ This project deploys an API on AWS according to the following workflow:
     - use spacy with pre-trained [en_core_web_sm model](https://spacy.io/models/en#en_core_web_sm)
 - Ontology / Knowledge Graph  
     - use [owlready2](https://owlready2.readthedocs.io/en/latest/)
-    - currently does not start from [foaf](http://xmlns.com/foaf/spec/) model (due to import bug in Protégé)
+    - currently does not import full [foaf](http://xmlns.com/foaf/spec/) model (due to import bug in Protégé)
     
 
 
@@ -77,18 +77,18 @@ This project deploys an API on AWS according to the following workflow:
 
 ## Quickstart
 
-Global dependencies: (please refer to links for installation tutorials if necessray)
+Global dependencies: (please refer to links for installation tutorials if necessary)
 - recent OS
 - [git](https://git-scm.com)
 - [Python](https://www.python.org/downloads/)  (including venv)
 - AWS [Account](https://aws.amazon.com/resources/create-account/) & [CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
-- [Docker Desktop](https://www.docker.com/get-started) 
+- [Docker](https://www.docker.com/get-started) 
 - [Terraform](https://www.terraform.io)
 - [Protégé](https://protege.stanford.edu)
 
 Clone and go to the newly created repository :
 
-    $ git clone <https address>
+    $ git clone <project https address>
     $ cd KnowledgeGraph-Terraform-Flask-app
 
 Create a deployment virtualenv and activate it: 
@@ -178,11 +178,13 @@ Create repository on AWS ECR:
     $ aws ecr create-repository --repository-name knowledgegraph-terraform-flask-app --image-scanning-configuration scanOnPush=true --region eu-west-3 
 
 
-Get credentials:
-
 ---
 **NB:** 
-Insert your actual AWS ID in the following command lines.
+Insert your actual AWS ID in place of <AWS_ID> in the following command lines.
+
+---
+
+Get credentials:
 
     $ aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin <AWS_ID>.dkr.ecr.eu-west-3.amazonaws.com/knowledgegraph-terraform-flask-app
 
@@ -285,14 +287,14 @@ _OR_
 _OR_ 
 
 ### Test your own microservice on localhost 
-- launch local API instance (with either local or remote DynamoDB)
+- launch local API instance (with local DynamoDB instance)
 - with your endpoint, same steps as for fully hosted microservice
 - Perform batch imports (for instance, batch size = increasing multiples of 10)
 
 
 ---
 **NB:** 
-- The fully hosted Flask app relies extensively on network connectivity. 
+- The fully hosted Flask app relies extensively on network connectivity (timeouts may occur) 
 - Always prefer to launch batch imports from local API instance
 - An area of improvement could be to use a cache such as [celery](https://flask.palletsprojects.com/en/1.1.x/patterns/celery/).
 - Another option would be to tweak parameters of the architecture, especially limitations on: 
