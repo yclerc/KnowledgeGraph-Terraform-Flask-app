@@ -20,6 +20,7 @@
 **Table of Contents**  
 - [General info](#general-info)
 - [Flask App](#flask-app)
+  - [C4 Diagram](#c4-diagram)  
   - [App folder structure](#app-folder-structure)  
   - [Functional blocks ](#functional-blocks)  
 - [Install](#install)
@@ -48,6 +49,10 @@ This project deploys an API on AWS according to the following workflow:
 	
 
 # Flask App 
+
+## Functional blocks
+ ![c4](./images/c4.png
+ )
 
 ## [./app](./app) folder structure 
 
