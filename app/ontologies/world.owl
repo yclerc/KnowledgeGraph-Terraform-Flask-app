@@ -98,738 +98,659 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03649v1"/>
 </onto:Person>
 
-<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03648v1">
+<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03628v1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SunStage: Portrait Reconstruction and Relighting using the Sun as a Light Stage</onto:has_title>
+  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-throughput computational discovery of 40 ultralow thermal conductivity and 20 highly anisotropic crystalline materials</onto:has_title>
 </onto:Document>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Aleksander Holynski']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ankit Jain']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xiuming Zhang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Harish P Veeravenkata']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xuaner Cecilia Zhang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Shravan Godse']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yifan Wang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yagyank Srivastava']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Coarse Alignment(a']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. J. H. McGaughey']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Lmaskor Llmk(c']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. J. Minnich']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Peak Signal']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Javey']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Pro Max']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Kokalj']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Wiley Online Library']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Sanchez']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Wang et al']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Smogunov']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['ωi ·']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. B. Iversen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03647v1">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. C. Chakoumakos']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapting CLIP For Phrase Localization Without Further Training</onto:has_title>
-</onto:Document>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Greg Shakhnarovich']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jiahao Li']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Raymond A. Yeh']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
-  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03640v1"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Askell']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Frank']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. G. Schwing']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. L. Yuille']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Lai']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Lucchi']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Mallya']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Shaji']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Fu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. W. Smeulders']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Lv']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Zisserman']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Meredig']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. A. Plummer']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Song']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Dai']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. Cavazzoni']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Schiele']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. Gougoussis']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. C. Loy']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. Hua']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. H. Lampert']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. Sbraccia']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. Hallacy']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. Wolverton']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. K. Williams']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. A. Broido']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. L. Zitnick']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Broido']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. M. Cervantes']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. C. Wallace']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. A. Shamma']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Ceresoli']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. H. Hu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. G. Cahill']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. H. Park']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Gaines']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Ramanan']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Gunter']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Yang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Mandrus']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Yu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. R. Clarke']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['E. Nichols']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Skinner']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['F. Wei']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['F. Mauri']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. A. Miller']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['F. Steglich']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Ghiasi']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Ceder']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Goh']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Chen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Li']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. D. Stucky']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Papandreou']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Fratesi']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Zhang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Hautier']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Hu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. L. Chiarotti']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Pham']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Sclauzero']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Xu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Slack']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['I. Kokkinos']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Liu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['IEEE TPAMI']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Nguyen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Andreas']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. T. Stokes']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. C. Caicedo']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Wu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Clark']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['I. A. Abrikosov']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Deng']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['IIT Bombay']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Feng']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. A. Reissland']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Hays']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. D. Bryan']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Hockenmaier']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. E. Saal']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Huang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. H. McGaughey']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03638v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Johnson']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. He']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Kravitz']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Hong']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Luo']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Kim']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. R. Uijlings']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. M. Ziman']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Tan']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. R. Thompson']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. W. Kim']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. S. Kang']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Wang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Shen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Winn']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Wu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Xiong']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['John Wiley']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Chen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. D. Rosa']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Pal']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. E. Van De Sande']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Wu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Funakoshi']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. a. Persson']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Hata']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Chen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Li']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Martin-Samos']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Murphy']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Paulatto']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Saenko']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Liu et al.']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Smith']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Aykol']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Xu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Calandra']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Fei-Fei']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Christensen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Specia']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. G. Kanatzidis']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Van Gool']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Lazzeri']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Wang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Li']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['L.-C. Chen']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Mikami']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['L.-J. Li']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['N. Bonini']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Aono']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['N. Ide']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. B. Blaschko']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['N. K. Ravichandran']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. H. Kiapour']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['N. Marzari']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Hodosh']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ni repetitions']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Matten']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['O. Hellman']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. N. Do']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['O. M. Ozkendir']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Rohrbach']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Steneteg']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['O. Groth']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Umari']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Dollár']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Y. Huang']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Fua']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Q. Zheng']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Kordas']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Gebauer']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Mishkin']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Jin']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Perona']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. M.']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Q. Le']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Mazzarello']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Q. Yu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Baroni']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. A. Yeh']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Dacek']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Hu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Estreicher']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Kovvuri∗']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Fabris']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Krishna']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. I.']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Nevatia']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Kirklin']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Piramuthu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Lee']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Socher']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Li']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Azadi']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. P. Ong']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Belongie']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Paolini']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Chen']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Paschen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Kazemzadeh']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Patel']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Lazebnik']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Scandolo']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Tang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Sullivan']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Yang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Tongay']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Zheng']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. de Gironcoli']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['S.-F. Chang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Se Rb Sr Y Zr']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. Chen']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. L. Reinecke']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. Darrell']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['T.-H. Liu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. L. Berg']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['U. Gerstmann']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['V. Ordonez']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['V. I. Hegde']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['W. Dong']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['W. Chen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['W. Kuo']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['W. D. Richards']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['W.-M. Hwu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['W. Lin']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Bai']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Chen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Gu']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Hua']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Liu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Cao']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Ruan']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Cui']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Wang']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Yu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Gao']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Hu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Kalantidis']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Luo']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Li']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Lv']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Lin']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Nishino']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Srivastava']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Xia']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Yang']">
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Zhou']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Yu']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Zhu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Zhuang']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y.-T. Chen']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Li']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Mu']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Parekh']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Yang']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
-</onto:Person>
-
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Zhang']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03628v1"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
 </onto:Person>
 
@@ -880,6 +801,14 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
 </onto:Person>
 
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Raymond A. Yeh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03640v1"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+</onto:Person>
+
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Yuan-Ting Hu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
@@ -901,6 +830,7 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Adam Lerer']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Aditya Khosla']">
@@ -975,6 +905,7 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Andrew McCallum']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Andrew Zisserman']">
@@ -1176,6 +1107,7 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Francisco Massa']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Franco Scarselli']">
@@ -1228,6 +1160,12 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
 </onto:Person>
 
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['IEEE TPAMI']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['IEEE TSP']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
@@ -1256,6 +1194,7 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['James Bradbury']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Jeremias Sulam']">
@@ -1319,6 +1258,7 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Justin Domke']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Justin Johnson']">
@@ -1330,6 +1270,7 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Jürgen Schmidhuber']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Kai Wang']">
@@ -1518,6 +1459,7 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Sam Gross']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Sanghyuk Chun']">
@@ -1639,6 +1581,7 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Trevor Killeen']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03643v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Valérie R Wajs']">
@@ -1966,6 +1909,196 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03642v1"/>
 </onto:Person>
 
+<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03618v1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumonia Detection in Chest X-Rays using Neural Networks</onto:has_title>
+</onto:Document>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Anwesh Reddy Paduri']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ashish Ranjan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Dany Bright']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Devendra Trivedi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ketul Kumar']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Narayana Darapaneni']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Vivek Kumar']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Cadrin-Chênevert']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. G. Keskar']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. R. Paduri']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Krishnamurthy']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Chest X-Ray Images']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D.  J.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Q. Tran']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. T. Ngo']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Q. Nguyen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['IEEE Access']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. A.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. D.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Digit']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. I.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Roentgenol']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Thorac']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Sonka']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['N. D. Bokde']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. M. Cheng']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Recht B. Advances']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Roelofs R.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Katiyar']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Srebro N.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Stern M.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. T. Le']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. Yang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Yan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Q.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. W. Geem']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03618v1"/>
+</onto:Person>
+
 <onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03632v1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Effects of Regularization and Data Augmentation are Class Dependent</onto:has_title>
@@ -2133,6 +2266,221 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03632v1"/>
 </onto:Person>
 
+<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03613v1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topological D-Class Physics with Passive Acoustic Elements</onto:has_title>
+</onto:Document>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Camelia Prodan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Emil Prodan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Wenting Cheng']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Dauphin']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Furusaki']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. P. Schnyder']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Turner']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. W. W. Ludwig']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. A. Bernevig']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. L. Kane']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. Prodan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Kleckner']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['E. J. Mele']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['E. P.']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['E. Prodan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['F. A. An']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. E. Moore']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Phys']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Balents']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Maﬀei']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. R. Zirnbauer']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['New J. Phys']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Huber']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Raghu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Ryu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S.-C. Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. L. Hughes']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['V. Lebedev']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['V. Vitelli']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Liu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03613v1"/>
+</onto:Person>
+
+<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03648v1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SunStage: Portrait Reconstruction and Relighting using the Sun as a Light Stage</onto:has_title>
+</onto:Document>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Aleksander Holynski']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xiuming Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xuaner Cecilia Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yifan Wang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Coarse Alignment(a']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Lmaskor Llmk(c']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Peak Signal']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Pro Max']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Wiley Online Library']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Wang et al']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['ωi ·']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03648v1"/>
+</onto:Person>
+
 <onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03638v1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Video Generation with Time-Agnostic VQGAN and Time-Sensitive Transformer</onto:has_title>
@@ -2191,6 +2539,12 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Yang']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03638v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Huang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03638v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Neural Networks']">
@@ -2423,6 +2777,12 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
 </onto:Person>
 
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Deng']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Jakub Tomczak']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
@@ -2479,14 +2839,27 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
 </onto:Person>
 
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Karteek Alahari']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Koray Kavukcuoglu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L.-J. Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Manuel J']">
@@ -2552,6 +2925,12 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Punarjay Chakravarty']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Socher']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
 </onto:Person>
 
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Raia Hadsell']">
@@ -2624,6 +3003,12 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
 </onto:Person>
 
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['W. Dong']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Xi Xiao']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
@@ -2682,6 +3067,349 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['van Pascanu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03634v1"/>
+</onto:Person>
+
+<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03625v1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Security Aspects of Quantum Machine Learning: Opportunities, Threats and Defenses</onto:has_title>
+</onto:Document>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Satwik Kundu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Swaroop Ghosh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Aakarshitha Suresh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Abdullah Ash Saki']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Abdullah Ash-Saki']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Abdurrahman Nasr']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Alessio Figalli']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Alex Bocharov']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ali Javadi-Abhari']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Amey Kulkarni']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Aurélien Lucchi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Christa Zoufal']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Christian Gogolin']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Computing Machinery']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Costin Iancu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['David C. McKay']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['David Sutter']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Elad Hazan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Gavin E Crooks']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Guangpeng Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Hardware Trojan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Isaac Chuang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Emerg']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jarrod R McClean']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jian Wang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jimmy Ba']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03646v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Johannes Jakob Meyer']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['John Duchi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Josef Pichlmeier']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Josh Izaac']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Juliane Müller']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Koen Bertels']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Koustubh Phalak']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Krysta M Svore']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Leonardo Banchi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Linhui Dai']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Mahabubul Alam']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Margaret Martonosi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Maria Schuld']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Martin Anthony']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Masao Yanagisawa']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Masoud Mohseni']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Matthew French']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Michael Broughton']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Mohamed Zaki']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Nathan Killoran']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Nathan Wiebe']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Nikolay V Dokholyan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Nozomu Togawa']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Patrick Stecher']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Peter D Johnson']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Peter L Bartlett']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Prakash Murali']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Rasit O Topaloglu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Rasit Onur Topaloglu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Runwei Ding']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ryan Babbush']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ryan Sweke']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Stefan Woerner']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Sukin Sim']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Thomas Hubregtsen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Tinoosh Mohsenin']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ville Bergholm']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Wibe de Jong']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Wim Lavrijsen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Youngok Pino']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Zeming Lin']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03625v1"/>
 </onto:Person>
 
 <onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03641v1">
@@ -3709,11 +4437,6 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03646v1"/>
 </onto:Person>
 
-<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jimmy Ba']">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03646v1"/>
-</onto:Person>
-
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Jingyi Yu']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03646v1"/>
@@ -4074,6 +4797,606 @@
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03646v1"/>
 </onto:Person>
 
+<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03647v1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapting CLIP For Phrase Localization Without Further Training</onto:has_title>
+</onto:Document>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Greg Shakhnarovich']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jiahao Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Askell']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Frank']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. G. Schwing']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. L. Yuille']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Lai']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Lucchi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Mallya']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Shaji']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. W. Smeulders']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['A. Zisserman']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. A. Plummer']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Dai']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['B. Schiele']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. C. Loy']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. H. Lampert']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. Hallacy']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. K. Williams']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. L. Zitnick']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['C. M. Cervantes']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. A. Shamma']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. H. Hu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. H. Park']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Ramanan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Yang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['D. Yu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['E. Nichols']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['F. Wei']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. A. Miller']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Ghiasi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Goh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Papandreou']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['G. Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Hu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Pham']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['H. Xu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['I. Kokkinos']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Andreas']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. C. Caicedo']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Clark']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Feng']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Hays']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Hockenmaier']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Johnson']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Kravitz']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Luo']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. R. Uijlings']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Tan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. W. Kim']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Wang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Winn']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['J. Xiong']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. D. Rosa']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. E. Van De Sande']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Funakoshi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Hata']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Murphy']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Saenko']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Smith']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['K. Xu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Fei-Fei']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Specia']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Van Gool']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L. Wang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['L.-C. Chen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Aono']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. B. Blaschko']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. H. Kiapour']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Hodosh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Matten']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. N. Do']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['M. Rohrbach']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['O. Groth']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Dollár']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Fua']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Kordas']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Mishkin']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['P. Perona']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Q. Le']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Q. Yu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. A. Yeh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Hu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Kovvuri∗']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Krishna']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Nevatia']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['R. Piramuthu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Azadi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Belongie']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Chen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Kazemzadeh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Lazebnik']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Tang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Yang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S. Zheng']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['S.-F. Chang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. Chen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. Darrell']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['T. L. Berg']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['V. Ordonez']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['W. Kuo']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['W.-M. Hwu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Bai']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['X. Gu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Cao']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Cui']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Kalantidis']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Lin']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Yang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Yu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y. Zhuang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Y.-T. Chen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Mu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Parekh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Yang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Z. Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03647v1"/>
+</onto:Person>
+
 <onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03645v1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DaViT: Dual Attention Vision Transformers</onto:has_title>
@@ -4197,6 +5520,543 @@
 <onto:Person rdf:about="http://fil_rouge/onto.owl/['Wei Yi et al']">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03636v1"/>
+</onto:Person>
+
+<onto:Document rdf:about="http://fil_rouge/onto.owl/2204.03619v1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modeling Label Correlations for Second-Order Semantic Dependency Parsing with Mean-Field Inference</onto:has_title>
+</onto:Document>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Kewei Tu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Songlin Yang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:makes rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Alan Akbik']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Alexander M. Rush']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['André F. T. Martins']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['André Martins']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Chang Huang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Chris Dyer']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Christopher D. Manning']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Dalong Du']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Dan Flickinger']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Dan Klein']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Daniel Fernández-González']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Daniel Zeman']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['David Smith']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['David Sontag']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Duncan Blythe']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Eric P. Xing']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Erick Fonseca']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Fan Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Fang Wang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Fernando Pereira']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Giorgio Satta']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Greg Durrett']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Hai Zhao']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Hao Peng']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Haoyi Wu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Henry Kucera']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Human Language Technologies']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jacob Devlin']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jan Popelka']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jana Šindlerová']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jason Naradowsky']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jiang Guo']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jingxian Huang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jinho D. Choi']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jiong Cai']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Jonas Groschwitz']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Josef Toman']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Junjie Cao']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Kenton Lee']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Kevin Duh']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Kristina Toutanova']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Language Learning']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Letian Peng']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Marco Kuhlmann']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Mariana S. C. Almeida']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Mark Dredze']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Matthew R. Gormley']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Matthias Lindemann']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Michael Collins']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Miguel Almeida']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Min Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Mohammed Haroon Dupty']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Mário A. T. Figueiredo']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Nelson Francis']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Noah A. Smith']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Noah Smith']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Oleksandr Shchur']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Petr Pajas']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Philip H. S. Torr']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Qingrong Xia']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Rui Wang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ryan McDonald']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Sadeep Jayasumana']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Sam Thomson']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Sebastian Riedel']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Shay B. Cohen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Sheng Huang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Sheng Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Shilin Zhou']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Shuai Zheng']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Shuhei Kurita']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Stephan Oepen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Stephan Rabanser']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Terry Koo']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Tim Vieira']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Timothy Dozat']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Ting Liu']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Tommi Jaakkola']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Valia Kordoni']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Vlad Niculae']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Waleed Ammar']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Wanxiang Che']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Wee Sun Lee']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Wei Chang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Weiwei Sun']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xavier Carreras']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xiaojun Wan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xinyu Wang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xuezhe Ma']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Xutai Ma']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yanpeng Zhao']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yantao Du']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yi Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Youmi Ma']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yu Zhang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yufei Chen']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yusuke Miyao']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Yuxuan Wang']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Zhaohui Yan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Zhenghua Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Zhizhong Su']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Zixia Jia']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['Zuchao Li']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
+</onto:Person>
+
+<onto:Person rdf:about="http://fil_rouge/onto.owl/['jun Wan']">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <onto:isReferredIn rdf:resource="http://fil_rouge/onto.owl/2204.03619v1"/>
 </onto:Person>
 
 

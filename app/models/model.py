@@ -121,10 +121,13 @@ def create_onto():
             new_doc.has_title.append(instance["title"]["S"])
             for author in instance["Authors"]["SS"]:
                 author_name = [str(author).replace("%20", " ")]
+                #author_name = str(author).replace("%20", "_").replace(" ","_")
+                #print(author_name)
                 new_author = Person(name=author_name)
                 new_author.makes.append(new_doc)
             for reference in instance["References"]["SS"]:
                 ref_name = [str(reference).replace("%20", " ")]
+                #ref_name = str(reference).replace("%20", "_").replace(" ","_")
                 new_reference = Person(name=ref_name)
                 new_reference.isReferredIn.append(new_doc)
     default_world.save(
@@ -220,6 +223,8 @@ def process_arxiv_file(path, arxiv_id, title, authors_lst, post_trigger):
         "]",
         "[",
         "\n",
+        ">",
+        "<",
         "ˇ",
     ]
     references = ref_lst
