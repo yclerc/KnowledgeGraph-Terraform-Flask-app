@@ -50,9 +50,8 @@ This project deploys an API on AWS according to the following workflow:
 
 # Flask App 
 
-## Functional blocks
- ![c4](./images/c4.png
- )
+## C4 Diagram
+ ![c4](./images/c4.png)
 
 ## [./app](./app) folder structure 
 
@@ -261,8 +260,8 @@ An API contract is provided through [Postman API Platform](https://www.postman.c
 
 See API contracts for information on the [KnowledgeGraph-Terraform-Flask-app](.) API and available routes:
 
-- [Local API Contract](https://documenter.getpostman.com/view/20033934/UVsLS6ja)
-- TO DO for cloud hosted solution
+- [API Contract](https://documenter.getpostman.com/view/20033934/UVyuSFCN)
+
 
 
 See these [resources](https://idratherbewriting.com/learnapidoc/index.html) for more content on how to document APIs
