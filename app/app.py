@@ -127,55 +127,59 @@ def batch_populate_from_arxiv(batch_size):
     """
     Persist several files to DB. Try increasing batch size to increase the amount of files stored.
     """
-    try:
-        # search for selected query, returns latest documents related to the query from arxiv
-        search = arxiv.Search(
-            query="Computer Science & AI",
-            max_results=batch_size,
-            sort_by=arxiv.SortCriterion.SubmittedDate,
-        )
-        # this flexibility allows for future improvements.
-        # use case: Have the API manage several knowledge tables to generate ontologies on various queries
-        # initialize variables
-        lst = []
-        file_id = 0
-        # scan documents currently in DB
-        file_lst = model.AWS_db_persisted_files()
-        # Download PDF to a specified directory with a custom filename.
-        for result in search.results():
-            # to get unique id from arxiv uri
-            arxiv_id = result.get_short_id()
-            # to avoid persisting again files that are already in DB
-            if arxiv_id not in file_lst:
-                file_name = "arxiv_downloaded_" + str(file_id) + ".pdf"
-                result.download_pdf(dirpath="./downloads", filename=file_name)
-                file_path = "./downloads/" + file_name
-                authors_lst = []
-                for author in result.authors:
-                    authors_lst.append(str(author))
-                    # print("Author: ", author)
-                authors_lst = json.dumps(authors_lst)
-                # path, title authors
-                model.process_arxiv_file(
-                    file_path, arxiv_id, result.title, authors_lst, 1
-                )
-                lst.append({"Title": result.title, "URI": result.pdf_url})
-                file_id += 1
-                os.remove(file_path)
-        json_output = {
-            "Files added": file_id,
-            "Details": lst,
-            "Response": "If 0 files were added, the database is already up to date with latest documents from arxiv. In this case, batch requests are not allowed. Please consider uploading specific documents through the /arxiv/unit/<input_arxiv_id> method",
-        }
-        return json_output, 200
-
+    #try:
+    # search for selected query, returns latest documents related to the query from arxiv
+    search = arxiv.Search(
+        query="Computer Science & AI",
+        max_results=batch_size,
+        sort_by=arxiv.SortCriterion.SubmittedDate,
+    )
+    # this flexibility allows for future improvements.
+    # use case: Have the API manage several knowledge tables to generate ontologies on various queries
+    # initialize variables
+    lst = []
+    file_id = 0
+    # scan documents currently in DB
+    file_lst = model.AWS_db_persisted_files()
+    # Download PDF to a specified directory with a custom filename.
+    for result in search.results():
+        # to get unique id from arxiv uri
+        arxiv_id = result.get_short_id()
+        # to avoid persisting again files that are already in DB
+        if arxiv_id not in file_lst:
+            file_name = "arxiv_downloaded_" + str(arxiv_id) + ".pdf"
+            result.download_pdf(dirpath="./downloads", filename=file_name)
+            file_path = "./downloads/" + file_name
+            authors_lst = []
+            for author in result.authors:
+                authors_lst.append(str(author))
+                # print("Author: ", author)
+            authors_lst = json.dumps(authors_lst)
+            # path, title authors
+            model.process_arxiv_file(
+                file_path, arxiv_id, result.title, authors_lst, 1
+            )
+            lst.append({"Title": result.title, "URI": result.pdf_url})
+            file_id += 1
+            os.remove(file_path)
+            json_output = {
+                "Files added": file_id,
+                "Details": lst
+            } 
+        else:
+            json_output = {
+                "Files added": 0,
+                "Response": "Consider using a batch size bigger than the amount of docuemnts currently in DB or uploading specific documents through the /arxiv/unit/<input_arxiv_id> method",
+            }         
+    return json_output, 200
+    """
     except:
         json_output = {
             "Files added": 0,
             "Response": "It seems your request has exceeded currently allowed network capabilities. Please consider using a smaller batch size or uploading specific documents through the /arxiv/unit/<input_arxiv_id> method",
         }
         return json_output, 500
-
+    """
 
 @app.route("/onto/", methods=["GET"])
 def get_onto():
